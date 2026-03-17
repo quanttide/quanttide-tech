@@ -34,26 +34,12 @@ journal/
 这种结构比平级文件更清晰，便于扩展。
 
 ### 3. Meta 目录结构
-quanttide-founder 的 meta 目录非常简单：
-```
-meta/
-├── README.md
-├── metadata.md
-└── self.md
-```
 
-没有复杂的 bylaw 层级结构。
+
 
 ### 4. Handbook 目录结构
-使用层级嵌套：
-```
-handbook/
-├── meta/
-│   └── memory/
-│       └── journal.md  # 日志手册
-└── default/
-    └── report/
-```
+
+
 
 ### 5. 命名习惯总结
 - **目录命名**：使用英文小写，简洁明了
