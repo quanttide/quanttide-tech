@@ -22,3 +22,7 @@
 ## 4. 存储规范
 - **位置**：`meta/journal/learn/`
 - **命名**：`YYYY-MM-DD.md`
+
+## 5. 规范参考
+- 通用日志规范：`meta/journal/README.md`
+- 学习日志章程：`meta/journal/learn/README.md`
