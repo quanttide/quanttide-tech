@@ -2,7 +2,13 @@
 
 ## 事实源
 
-- **学习日志章程**: `meta/bylaw/learn_journal.md`
+### 程序型记忆五层体系
+
+| 层次 | 名称 | 说明 | 文件 |
+|------|------|------|------|
+| L1 | Paper | 工作论文：日志规范原理 | `paper/meta/journal.md` |
+| L3 | Handbook | 学习日志手册 | `handbook/meta/learn_journal.md` |
+| L5 | Bylaw | 学习日志章程 | `meta/bylaw/learn_journal.md` |
 
 ## 工作原则
 
