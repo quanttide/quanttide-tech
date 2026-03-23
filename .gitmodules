@@ -4,3 +4,6 @@
 [submodule "profile"]
 	path = profile
 	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
+[submodule "report"]
+	path = report
+	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
