@@ -1,9 +1,9 @@
 [submodule "journal"]
-	path = journal
+	path = docs/journal
 	url = https://github.com/quanttide/quanttide-journal-of-business-entity.git
 [submodule "profile"]
-	path = profile
+	path = docs/profile
 	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
 [submodule "report"]
-	path = report
+	path = docs/report
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
