@@ -7,3 +7,9 @@
 [submodule "report"]
 	path = docs/report
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+[submodule "docs/bylaw"]
+	path = docs/bylaw
+	url = https://github.com/quanttide/quanttide-bylaw-of-business-entity.git
+[submodule "docs/essay"]
+	path = docs/essay
+	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
