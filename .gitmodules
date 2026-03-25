@@ -16,3 +16,6 @@
 [submodule "docs/tutorial"]
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
+[submodule "docs/roadmap"]
+	path = docs/roadmap
+	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
