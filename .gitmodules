@@ -22,3 +22,6 @@
 [submodule "src/qtadmin"]
 	path = src/qtadmin
 	url = https://github.com/quanttide/qtadmin.git
+[submodule "src/qtcloud-data"]
+	path = src/qtcloud-data
+	url = https://github.com/quanttide/qtcloud-data.git
