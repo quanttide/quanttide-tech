@@ -19,3 +19,6 @@
 [submodule "docs/roadmap"]
 	path = docs/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
+[submodule "src/qtadmin"]
+	path = src/qtadmin
+	url = https://github.com/quanttide/qtadmin.git
