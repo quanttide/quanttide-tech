@@ -1,15 +1,5 @@
 # AGENTS.md - Agent 工作指南
 
-## 事实源
-
-### 程序型记忆五层体系
-
-| 层次 | 名称 | 说明 | 文件 |
-|------|------|------|------|
-| L1 | Paper | 工作论文：日志规范原理 | `meta/paper/journal.md` |
-| L3 | Handbook | 学习日志手册 | `meta/handbook/learn_journal.md` |
-| L5 | Bylaw | 学习日志章程 | `meta/bylaw/learn_journal.md` |
-
 ## 快速索引
 
 | 场景 | 命令/操作 |
@@ -31,11 +21,6 @@
 - 修改 `src/` 下的子模块
 - 遵循子模块内的 AGENTS.md 规范
 - 提交时使用 Conventional Commits 格式
-
-### 3. 学习日志
-- 按 L1→L3→L5 路径学习
-- 先读 `meta/paper/journal.md`，再读 `meta/handbook/learn_journal.md`
-- 最终遵循 `meta/bylaw/learn_journal.md`
 
 ## 工作原则
 
