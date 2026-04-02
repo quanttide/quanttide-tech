@@ -2,6 +2,28 @@
 
 > 项目结构见 [README](./README.md)
 
+## 使用场景
+
+### 1. 文档更新
+- 修改 `docs/` 下的子模块内容
+- 在子模块内提交：`git -C docs/handbook commit -m "docs: update content"`
+- 在子模块内推送：`git -C docs/handbook push`
+- 更新主仓库引用：`git add docs/handbook && git commit -m "chore: update handbook submodule"`
+
+### 2. 代码开发
+- 修改 `src/` 下的子模块
+- 遵循子模块内的 AGENTS.md 规范
+- 提交时使用 Conventional Commits 格式
+
+## 工作原则
+
+1. **最小干预**: 仅在用户明确请求时操作
+2. **原子提交**: 每次提交独立完整
+3. **验证优先**: 修改后检查文件命名和内容
+4. **明确命名**: 严格按照规范命名文件
+5. **反思学习**: 从错误中学习并改进工作流程
+6. **写作规范**: 遵循本文档中的文档写作标准
+
 ## 提交规范
 
 使用 [Conventional Commits](https://www.conventionalcommits.org/) 规范：
