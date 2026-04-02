@@ -12,24 +12,7 @@
 | 提交规范 | CONTRIBUTING.md - 提交规范 |
 | 文档写作 | CONTRIBUTING.md - 文档写作标准 |
 | 工作流程 | CONTRIBUTING.md - 工作流程 |
-
-### 子模块清单
-
-| 路径 | 说明 |
-|------|------|
-| docs/archive | 历史文档归档 |
-| docs/bylaw | 章程文档 |
-| docs/essay | 随笔文章 |
-| docs/handbook | 学习手册 |
-| docs/journal | 工作日志 |
-| docs/library | 图书馆 |
-| docs/profile | 产品构型档案 |
-| docs/report | 运营报告 |
-| docs/roadmap | 产品路线图 |
-| docs/specification | 规范文档 |
-| docs/tutorial | 教程文档 |
-| src/qtadmin | qtadmin 项目 |
-| src/qtcloud-data | qtcloud-data 项目 |
+| 子模块列表 | README.md |
 
 ### 工作原则
 
