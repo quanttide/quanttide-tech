@@ -43,3 +43,6 @@
 [submodule "docs/story"]
 	path = docs/story
 	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
+[submodule "docs/library"]
+	path = docs/library
+	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
