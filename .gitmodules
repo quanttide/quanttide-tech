@@ -43,3 +43,6 @@
 [submodule "docs/library"]
 	path = docs/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+[submodule "src/qtcloud-finance"]
+	path = src/qtcloud-finance
+	url = https://github.com/quanttide/qtcloud-finance.git
