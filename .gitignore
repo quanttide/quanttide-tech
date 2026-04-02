@@ -40,6 +40,6 @@ Thumbs.db
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-.cache/
+# Cache
+.ruff_cache/
+.pytest_cache/
