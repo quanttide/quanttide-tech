@@ -34,3 +34,6 @@
 [submodule "docs/gallery"]
 	path = docs/gallery
 	url = https://github.com/quanttide/quanttide-gallery-of-business-entity.git
+[submodule "docs/specification"]
+	path = docs/specification
+	url = https://github.com/quanttide/quanttide-specification-of-business-entity.git
