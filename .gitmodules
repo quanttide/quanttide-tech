@@ -20,10 +20,10 @@
 	path = docs/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
 [submodule "src/qtadmin"]
-	path = src/qtadmin
+	path = apps/qtadmin
 	url = https://github.com/quanttide/qtadmin.git
 [submodule "src/qtcloud-data"]
-	path = src/qtcloud-data
+	path = apps/qtcloud-data
 	url = https://github.com/quanttide/qtcloud-data.git
 [submodule "docs/archive"]
 	path = docs/archive
@@ -44,5 +44,5 @@
 	path = docs/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
 [submodule "src/qtcloud-finance"]
-	path = src/qtcloud-finance
+	path = apps/qtcloud-finance
 	url = https://github.com/quanttide/qtcloud-finance.git
