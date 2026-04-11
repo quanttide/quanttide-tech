@@ -1,6 +1,6 @@
 ---
 name: commit
-description: Git 提交技能，遵循 Conventional Commits 规范，用于创建规范提交。
+description: Git 提交技能，用于提交代码变更时。
 ---
 
 # Git 提交技能
@@ -30,26 +30,110 @@ git commit -m "fix: 修复登录问题"
 git commit -m "docs: 更新 README"
 ```
 
-## 子模块提交
+## 提交流程
 
-在子模块中提交并推送到主仓库：
+### 1. 检查状态
 
 ```bash
-# 1. 子模块内提交
-git -C docs/handbook add -A
-git -C docs/handbook commit -m "docs: 更新文档"
-git -C docs/handbook push
+git status
+```
 
-# 2. 主仓库提交子模块引用更新
-git add docs/handbook
-git commit -m "chore: update handbook submodule"
+查看未提交的变更，包括：
+- 未暂存的修改（Changes not staged for commit）
+- 已暂存的修改（Changes to be committed）
+
+### 2. 添加文件
+
+```bash
+# 添加单个文件
+git add <file>
+
+# 添加所有修改
+git add -A
+```
+
+### 3. 提交
+
+```bash
+git commit -m "<type>: <description>"
+```
+
+### 4. 确认
+
+```bash
+git status
+```
+
+确认提交成功，当前分支应领先 origin/main n 个提交。
+
+### 5. 推送（如需）
+
+```bash
 git push
 ```
 
-## 推荐工具
+## 子模块提交
 
-使用 commitizen 交互式创建提交：
+### 1. 子模块内提交
 
 ```bash
-cz commit
+# 进入子模块目录
+cd docs/handbook
+
+# 检查状态
+git status
+
+# 添加并提交
+git add -A
+git commit -m "docs: 更新文档"
+
+# 推送到远程
+git push
+```
+
+### 2. 主仓库更新子模块引用
+
+```bash
+# 返回主仓库
+cd ../..
+
+# 添加子模块引用
+git add docs/handbook
+
+# 提交
+git commit -m "chore: update handbook submodule"
+
+# 推送
+git push
+```
+
+## 常见场景
+
+### 场景一：普通代码提交
+
+```bash
+git add -A
+git commit -m "feat: 添加用户认证功能"
+git push
+```
+
+### 场景二：文档更新
+
+```bash
+git add docs/README.md
+git commit -m "docs: 更新使用说明"
+git push
+```
+
+### 场景三：子模块更新
+
+```bash
+cd docs/gallery
+git add -A
+git commit -m "docs: 添加新示例"
+git push
+cd ..
+git add docs/gallery
+git commit -m "chore: update gallery submodule"
+git push
 ```
