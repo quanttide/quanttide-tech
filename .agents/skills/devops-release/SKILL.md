@@ -1,5 +1,5 @@
 ---
-name: release
+name: devops-release
 description: 版本发布技能，遵循语义化版本规范，用于创建 Git 标签、更新 CHANGELOG 并发布 GitHub Release。当需要发布新版本、打标签、更新发布说明时使用。
 ---
 
