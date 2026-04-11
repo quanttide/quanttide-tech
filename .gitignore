@@ -33,6 +33,9 @@ ENV/
 *.swo
 *~
 
+# Qwen Code
+.qwen/
+
 # OS
 .DS_Store
 Thumbs.db
