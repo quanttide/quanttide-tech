@@ -7,6 +7,7 @@
 | 场景 | 文档位置 |
 |------|----------|
 | 子模块操作 | CONTRIBUTING.md - 子模块操作 |
+| Skill 提炼 | handbook/agent/skill.md |
 | 文档写作 | CONTRIBUTING.md - 文档写作标准 |
 | 子模块列表 | README.md |
 
