@@ -25,31 +25,6 @@
 5. 反思学习：从错误中学习并改进工作流程
 6. 写作规范：遵循本文档中的文档写作标准
 
-## 提交规范
-
-使用 [Conventional Commits](https://www.conventionalcommits.org/) 规范：`<type>: <description>`
-
-### 提交类型
-
-- feat：新功能
-- fix：修复 bug
-- docs：文档更新
-- test：测试相关
-- refactor：代码重构
-- chore：构建/工具
-
-### 推荐工具
-
-使用 commitizen 创建规范提交：
-
-```bash
-# 交互式创建提交
-cz commit
-
-# 自动版本升级
-cz bump
-```
-
 ## 子模块操作
 
 ### 更新子模块
