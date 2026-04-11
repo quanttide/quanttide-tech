@@ -2,6 +2,23 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.1.1] - 2026-04-11
+
+### 新增
+
+- 智能体技能配置目录及 release 发布技能
+- Docker 部署配置
+- manifests/iac FaaS 架构
+- product/contract.yaml 产品契约
+- AGENTS.md、CONTRIBUTING.md 规范文档
+
+### 变更
+
+- 同步 15+ 个子模块更新
+- 重构子模块目录，新增 apps/ 目录
+- 统一 Docker 术语
+- 完善资产契约
+
 ## [0.1.0] - 2026-04-03
 
 ### 新增
