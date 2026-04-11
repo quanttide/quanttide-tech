@@ -80,6 +80,19 @@ gh release create <version> \
   --generate-notes
 ```
 
+如需更新 Release notes（使用 `--generate-notes` 时可能不符合 CHANGELOG 格式）：
+```bash
+gh api repos/<owner>/<repo>/releases/<release-id> \
+  -X PATCH \
+  -f body="### Added
+
+- 内容从CHANGELOG提取
+
+### Changed
+
+- 内容从CHANGELOG提取"
+```
+
 Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/releases/tag/<version>`
 
 ## 发布后确认
@@ -88,18 +101,34 @@ Release URL: `https://github.com/quanttide/quanttide-gallery-of-business-entity/
 - [ ] GitHub Release已创建
 - [ ] Release notes内容准确
 - [ ] 主仓库子模块引用已更新
+- [ ] 版本号符合语义化版本规范
 
-## 版本号规则
+验收方式：
+```bash
+# 检查标签是否存在
+git tag -l v*
 
-遵循语义化版本: `主版本.次版本.修订号`
+# 检查标签格式是否为 vX.Y.Z
+git tag -l "v[0-9]*.[0-9]*.[0-9]*"
+
+# 检查 CHANGELOG 对应版本是否存在
+grep "## \[v" CHANGELOG.md
+```
+
+版本号规则（语义化版本: `主版本.次版本.修订号`）：
 
 - **主版本（Major）**: 不兼容的API修改
 - **次版本（Minor）**: 向后兼容的功能新增
 - **修订号（Patch）**: 向后兼容的问题修复
 
-### 预发布版本
+预发布版本格式：
 
 - Alpha版本：`v0.0.1-alpha.1`
 - Beta版本：`v0.0.1-beta.1`
 - RC版本：`v0.0.1-rc.1`
 - Release版本：`v0.0.1`
+
+## 规范来源
+
+版本发布操作遵循量潮科技工程标准的版本发布标准
+[https://github.com/quanttide/quanttide-specification-of-business-entity/blob/v0.1.1/devops/release.md](https://github.com/quanttide/quanttide-specification-of-business-entity/blob/v0.1.1/devops/release.md)
