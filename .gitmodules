@@ -40,3 +40,12 @@
 [submodule "docs/vision"]
 	path = docs/vision
 	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
+[submodule "apps/qtadmin"]
+	path = apps/qtadmin
+	url = https://github.com/quanttide/qtadmin.git
+[submodule "apps/qtcloud-data"]
+	path = apps/qtcloud-data
+	url = https://github.com/quanttide/qtcloud-data.git
+[submodule "apps/qtcloud-asset"]
+	path = apps/qtcloud-asset
+	url = https://github.com/quanttide/qtcloud-asset.git
