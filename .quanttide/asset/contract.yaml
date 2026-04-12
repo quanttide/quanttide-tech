@@ -52,3 +52,107 @@ assets:
     category: static
     path: assets
     description: 静态资源子模块集合，如图书馆资源
+
+  # 随笔
+  essay:
+    title: 随笔
+    type: docs
+    category: essay
+    path: docs/essay
+    description: 量潮科技随笔集，思考与实践经验记录
+
+  # 期刊
+  journal:
+    title: 期刊
+    type: docs
+    category: journal
+    path: docs/journal
+    description: 量潮科技期刊，团队知识沉淀
+
+  # 档案
+  archive:
+    title: 档案
+    type: docs
+    category: archive
+    path: docs/archive
+    description: 量潮科技档案，历史文档归档
+
+  # 蓝图
+  roadmap:
+    title: 蓝图
+    type: docs
+    category: roadmap
+    path: docs/roadmap
+    description: 量潮科技产品蓝图
+
+  # 章程
+  bylaw:
+    title: 章程
+    type: docs
+    category: bylaw
+    path: docs/bylaw
+    description: 量潮科技企业章程
+
+  # 手册
+  tutorial:
+    title: 手册
+    type: docs
+    category: tutorial
+    path: docs/tutorial
+    description: 量潮科技操作手册
+
+  # 配置文件
+  profile:
+    title: 配置文件
+    type: docs
+    category: profile
+    path: docs/profile
+    description: 量潮科技配置文件模板
+
+  # 报告
+  report:
+    title: 报告
+    type: docs
+    category: report
+    path: docs/report
+    description: 量潮科技报告文档
+
+  # 故事
+  story:
+    title: 故事
+    type: docs
+    category: story
+    path: docs/story
+    description: 量潮科技故事集
+
+  # 愿景
+  vision:
+    title: 愿景
+    type: docs
+    category: vision
+    path: docs/vision
+    description: 量潮科技愿景与使命
+
+  # qtadmin
+  qtadmin:
+    title: qtadmin
+    type: app
+    category: qtapp
+    path: apps/qtadmin
+    description: Django 管理后台应用
+
+  # qtcloud-data
+  qtcloud_data:
+    title: qtcloud-data
+    type: app
+    category: qtapp
+    path: apps/qtcloud-data
+    description: 量潮云数据应用
+
+  # qtcloud-asset
+  qtcloud_asset:
+    title: qtcloud-asset
+    type: app
+    category: qtapp
+    path: apps/qtcloud-asset
+    description: 数字资产管理基础设施
