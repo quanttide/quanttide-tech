@@ -1,158 +1,98 @@
 # 量潮科技工作手册系统 — 数字资产契约
 # 模块定位：多仓架构管理数字资产
-# 参考：.quanttide/asset/contract.md
+# 分类依据：程序型记忆九宫格模型
+# 参考：docs/profile/asset/memory_model.md
 
 # ── 资产组成 ──────────────────────────────────────────
 
+# 按程序型记忆九宫格组织
+# 约束力层次：宪法 > 法律 > 法理
+# 消费对象：人类友好 > AI友好 > 规则引擎友好
+
 assets:
-  # 工作手册
-  handbook:
-    title: 工作手册
-    type: docs
-    category: handbook
-    path: docs/handbook
-    description: 量潮科技工作手册系统，包含 AGENTS.md、CONTRIBUTING.md 等工程规范
-
-  # 案例画廊
-  gallery:
-    title: 案例画廊
-    type: docs
-    category: gallery
-    path: docs/gallery
-    description: 企业实体案例展示框架，按职能板块（connect、execute、think、write）组织
-
-  # 工程标准
-  specification:
-    title: 工程标准
-    type: docs
-    category: specification
-    path: docs/specification
-    description: 量潮科技工程标准规范（文档格式、版本发布、Git使用等）
-
-  # Agent 技能
-  skills:
-    title: Agent 技能
-    type: config
-    category: skill
-    path: .agents/skills
-    description: AI Agent 可复用技能，包含 commit、format 等常用技能
-
-  # 应用项目
-  apps:
-    title: 应用项目
-    type: app
-    category: qtapp
-    path: apps
-    description: 量潮科技应用项目子模块集合
-
-  # 静态资源
-  assets_library:
-    title: 静态资源
-    type: asset
-    category: static
-    path: assets
-    description: 静态资源子模块集合，如图书馆资源
-
-  # 随笔
-  essay:
-    title: 随笔
-    type: docs
-    category: essay
-    path: docs/essay
-    description: 量潮科技随笔集，思考与实践经验记录
-
-  # 期刊
-  journal:
-    title: 期刊
-    type: docs
-    category: journal
-    path: docs/journal
-    description: 量潮科技期刊，团队知识沉淀
-
-  # 档案
-  archive:
-    title: 档案
-    type: docs
-    category: archive
-    path: docs/archive
-    description: 量潮科技档案，历史文档归档
-
-  # 蓝图
-  roadmap:
-    title: 蓝图
-    type: docs
-    category: roadmap
-    path: docs/roadmap
-    description: 量潮科技产品蓝图
-
-  # 章程
+  # ── 宪法层：最高约束力 ──
+  
+  # 宪法 - 人类友好：Bylaw
   bylaw:
     title: 章程
     type: docs
-    category: bylaw
+    category: constitution
+    audience: human
     path: docs/bylaw
-    description: 量潮科技企业章程
+    description: 量潮科技企业章程，最高约束力
 
-  # 手册
+  # 宪法 - AI友好：Specification
+  specification:
+    title: 工程标准
+    type: docs
+    category: constitution
+    audience: ai
+    path: docs/specification
+    description: 量潮科技工程标准规范
+
+  # 宪法 - 规则引擎友好：Toolkit
+  toolkit:
+    title: 工具箱
+    type: config
+    category: constitution
+    audience: engine
+    path: .agents/skills
+    description: AI Agent 可复用技能
+
+  # ── 法律层：中等约束力 ──
+
+  # 法律 - 人类友好：Handbook
+  handbook:
+    title: 工作手册
+    type: docs
+    category: law
+    audience: human
+    path: docs/handbook
+    description: 量潮科技工作手册系统
+
+  # 法律 - AI友好：Gallery
+  gallery:
+    title: 案例画廊
+    type: docs
+    category: law
+    audience: ai
+    path: docs/gallery
+    description: 企业实体案例展示框架
+
+  # 法律 - 规则引擎友好：Platform
+  platform:
+    title: 平台
+    type: app
+    category: law
+    audience: engine
+    path: apps
+    description: 量潮科技应用平台
+
+  # ── 法理层：低约束力 ──
+
+  # 法理 - 人类友好：Tutorial
   tutorial:
     title: 手册
     type: docs
-    category: tutorial
+    category: principle
+    audience: human
     path: docs/tutorial
     description: 量潮科技操作手册
 
-  # 配置文件
-  profile:
-    title: 配置文件
+  # 法理 - AI友好：Essay
+  essay:
+    title: 随笔
     type: docs
-    category: profile
-    path: docs/profile
-    description: 量潮科技配置文件模板
+    category: principle
+    audience: ai
+    path: docs/essay
+    description: 量潮科技随笔集
 
-  # 报告
-  report:
-    title: 报告
-    type: docs
-    category: report
-    path: docs/report
-    description: 量潮科技报告文档
-
-  # 故事
-  story:
-    title: 故事
-    type: docs
-    category: story
-    path: docs/story
-    description: 量潮科技故事集
-
-  # 愿景
-  vision:
-    title: 愿景
-    type: docs
-    category: vision
-    path: docs/vision
-    description: 量潮科技愿景与使命
-
-  # qtadmin
-  qtadmin:
-    title: qtadmin
+  # 法理 - 规则引擎友好：Example
+  example:
+    title: 示例
     type: app
-    category: qtapp
-    path: apps/qtadmin
-    description: Django 管理后台应用
-
-  # qtcloud-data
-  qtcloud_data:
-    title: qtcloud-data
-    type: app
-    category: qtapp
-    path: apps/qtcloud-data
-    description: 量潮云数据应用
-
-  # qtcloud-asset
-  qtcloud_asset:
-    title: qtcloud-asset
-    type: app
-    category: qtapp
-    path: apps/qtcloud-asset
-    description: 数字资产管理基础设施
+    category: principle
+    audience: engine
+    path: apps/qtcloud-asset/examples
+    description: 示例与原型验证
