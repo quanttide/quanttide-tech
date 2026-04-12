@@ -134,6 +134,15 @@ assets:
     path: docs/profile
     description: 量潮科技配置模板
 
+  brochure:
+    title: 宣传册
+    type: docs
+    category: declarative
+    type_dim: self
+    time_dim: present
+    path: docs/vision
+    description: 量潮科技宣传资料
+
   # 未来
   roadmap:
     title: 蓝图
@@ -143,6 +152,15 @@ assets:
     time_dim: future
     path: docs/roadmap
     description: 量潮科技产品蓝图
+
+  context:
+    title: 语境
+    type: docs
+    category: declarative
+    type_dim: semantic
+    time_dim: future
+    path: docs/specification
+    description: 量潮科技工作语境
 
   vision:
     title: 愿景
@@ -160,3 +178,10 @@ assets:
     category: skill
     path: .agents/skills
     description: AI Agent 可复用技能
+
+  assets_library:
+    title: 图书馆
+    type: asset
+    category: static
+    path: assets/library
+    description: 静态资源，采集公开资料作为参考源
