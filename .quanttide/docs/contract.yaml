@@ -1,0 +1,129 @@
+# 量潮科技工作手册系统 — 文档工程契约
+# 模块定位：MyST Markdown 语法规范、Jupyter Book 构建配置
+
+# ── 文档规范 ──────────────────────────────────────────
+
+standards:
+  # 文档格式
+  format:
+    syntax: myst
+    markdown_flavor: gfm
+    
+  # 标题层级
+  headings:
+    max_level: 3
+    document_title: h1
+    section: h2
+    subsection: h3
+    
+  # 代码块
+  code_blocks:
+    language_required: true
+    fence_style: fenced
+    
+  # 列表
+  lists:
+    unordered: "-"
+    ordered: "1."
+    
+  # 链接
+  links:
+    reference: "[text](url)"
+    inline: "[text](url)"
+
+# ── MyST 语法 ──────────────────────────────────────────
+
+myst_syntax:
+  # 警告块
+  admonitions:
+    - note
+    - warning
+    - danger
+    - tip
+    - important
+    
+  # 目录
+  toc:
+    enabled: true
+    depth: 2
+    
+  # 引用
+  refactoring:
+    cross_references: true
+    internal_links: true
+    
+  # 代码执行
+  execution:
+    enabled: false
+    cache: false
+
+# ── Jupyter Book 配置 ───────────────────────────────────
+
+jupyter_book:
+  # 构建配置
+  build:
+    command: jupyter-book build
+    output_dir: _build/html
+    
+  # 清理配置
+  clean:
+    command: jupyter-book clean
+    target: _build
+    
+  # 配置文件
+  config_file: _config.yml
+  
+  # 目录文件
+  toc_file: _toc.yml
+
+# ── 文件命名规范 ──────────────────────────────────────
+
+naming:
+  # 文件名格式
+  filename:
+    case: lowercase
+    separator: "-"
+    example: my-document-name.md
+    
+  # 目录名
+  directory:
+    case: lowercase
+    separator: "-"
+    plural: true
+    example: my-directory/
+    
+  # 特殊文件
+  special_files:
+    - README.md
+    - CHANGELOG.md
+    - CONTRIBUTING.md
+    - AGENTS.md
+    - LICENSE
+
+# ── 目录结构 ──────────────────────────────────────────
+
+structure:
+  # 根目录文件
+  root_files:
+    - README.md
+    - CHANGELOG.md
+    - CONTRIBUTING.md
+    - AGENTS.md
+    - LICENSE
+    - _config.yml
+    - _toc.yml
+    
+  # 板块目录
+  sections:
+    - name: think
+      description: 思考
+    - name: write
+      description: 写作
+    - name: connect
+      description: 连接与协作
+    - name: execute
+      description: 执行
+    - name: agent
+      description: 智能体工程
+    - name: learn
+      description: 学习
