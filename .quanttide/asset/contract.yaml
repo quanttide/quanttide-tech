@@ -17,7 +17,6 @@ assets:
     category: constitution
     audience: human
     path: docs/bylaw
-    submodule: docs/bylaw
     description: 量潮科技企业章程，最高约束力
 
   specification:
@@ -26,7 +25,6 @@ assets:
     category: constitution
     audience: ai
     path: docs/specification
-    submodule: docs/specification
     description: 量潮科技工程标准规范
 
   # 法律层：中等约束力
@@ -36,7 +34,6 @@ assets:
     category: law
     audience: human
     path: docs/handbook
-    submodule: docs/handbook
     description: 量潮科技工作手册系统
 
   gallery:
@@ -45,7 +42,6 @@ assets:
     category: law
     audience: ai
     path: docs/gallery
-    submodule: docs/gallery
     description: 企业实体案例展示框架
 
   qtadmin:
@@ -54,7 +50,6 @@ assets:
     category: law
     audience: engine
     path: apps/qtadmin
-    submodule: apps/qtadmin
     description: Django 管理后台
 
   qtcloud_data:
@@ -63,7 +58,6 @@ assets:
     category: law
     audience: engine
     path: apps/qtcloud-data
-    submodule: apps/qtcloud-data
     description: 量潮云数据应用
 
   qtcloud_asset:
@@ -72,7 +66,6 @@ assets:
     category: law
     audience: engine
     path: apps/qtcloud-asset
-    submodule: apps/qtcloud-asset
     description: 数字资产管理基础设施
 
   # 法理层：低约束力
@@ -82,7 +75,6 @@ assets:
     category: principle
     audience: human
     path: docs/tutorial
-    submodule: docs/tutorial
     description: 量潮科技操作手册
 
   essay:
@@ -91,7 +83,6 @@ assets:
     category: principle
     audience: ai
     path: docs/essay
-    submodule: docs/essay
     description: 量潮科技随笔集
 
   # ── 陈述型记忆 ──
@@ -104,7 +95,6 @@ assets:
     type_dim: event
     time_dim: past
     path: docs/archive
-    submodule: docs/archive
     description: 量潮科技历史文档归档
 
   report:
@@ -114,7 +104,6 @@ assets:
     type_dim: semantic
     time_dim: past
     path: docs/report
-    submodule: docs/report
     description: 量潮科技工作报告
 
   story:
@@ -124,7 +113,6 @@ assets:
     type_dim: self
     time_dim: past
     path: docs/story
-    submodule: docs/story
     description: 量潮科技品牌故事
 
   # 现在
@@ -135,7 +123,6 @@ assets:
     type_dim: event
     time_dim: present
     path: docs/journal
-    submodule: docs/journal
     description: 量潮科技期刊，团队知识沉淀
 
   profile:
@@ -145,7 +132,6 @@ assets:
     type_dim: semantic
     time_dim: present
     path: docs/profile
-    submodule: docs/profile
     description: 量潮科技配置模板
 
   # 未来
@@ -156,7 +142,6 @@ assets:
     type_dim: event
     time_dim: future
     path: docs/roadmap
-    submodule: docs/roadmap
     description: 量潮科技产品蓝图
 
   vision:
@@ -166,7 +151,6 @@ assets:
     type_dim: self
     time_dim: future
     path: docs/vision
-    submodule: docs/vision
     description: 量潮科技愿景与使命
 
   # ── 本地资源（非子模块） ──
