@@ -1,6 +1,6 @@
 # 量潮科技工作手册系统 — 数字资产契约
 # 模块定位：多仓架构管理数字资产
-# 分类依据：程序型记忆九宫格模型
+# 分类依据：程序型记忆九宫格模型 + 陈述型记忆九宫格模型
 # 参考：docs/profile/asset/memory_model.md
 
 # ── 资产组成 ──────────────────────────────────────────
@@ -10,9 +10,9 @@
 # 消费对象：人类友好 > AI友好 > 规则引擎友好
 
 assets:
-  # ── 宪法层：最高约束力 ──
-  
-  # 宪法 - 人类友好：Bylaw
+  # ── 程序型记忆 ──
+
+  # 宪法层：最高约束力
   bylaw:
     title: 章程
     type: docs
@@ -21,7 +21,6 @@ assets:
     path: docs/bylaw
     description: 量潮科技企业章程，最高约束力
 
-  # 宪法 - AI友好：Specification
   specification:
     title: 工程标准
     type: docs
@@ -30,7 +29,6 @@ assets:
     path: docs/specification
     description: 量潮科技工程标准规范
 
-  # 宪法 - 规则引擎友好：Toolkit
   toolkit:
     title: 工具箱
     type: config
@@ -39,9 +37,7 @@ assets:
     path: .agents/skills
     description: AI Agent 可复用技能
 
-  # ── 法律层：中等约束力 ──
-
-  # 法律 - 人类友好：Handbook
+  # 法律层：中等约束力
   handbook:
     title: 工作手册
     type: docs
@@ -50,7 +46,6 @@ assets:
     path: docs/handbook
     description: 量潮科技工作手册系统
 
-  # 法律 - AI友好：Gallery
   gallery:
     title: 案例画廊
     type: docs
@@ -59,7 +54,6 @@ assets:
     path: docs/gallery
     description: 企业实体案例展示框架
 
-  # 法律 - 规则引擎友好：Platform
   platform:
     title: 平台
     type: app
@@ -68,9 +62,7 @@ assets:
     path: apps
     description: 量潮科技应用平台
 
-  # ── 法理层：低约束力 ──
-
-  # 法理 - 人类友好：Tutorial
+  # 法理层：低约束力
   tutorial:
     title: 手册
     type: docs
@@ -79,7 +71,6 @@ assets:
     path: docs/tutorial
     description: 量潮科技操作手册
 
-  # 法理 - AI友好：Essay
   essay:
     title: 随笔
     type: docs
@@ -88,7 +79,6 @@ assets:
     path: docs/essay
     description: 量潮科技随笔集
 
-  # 法理 - 规则引擎友好：Example
   example:
     title: 示例
     type: app
@@ -96,3 +86,95 @@ assets:
     audience: engine
     path: apps/qtcloud-asset/examples
     description: 示例与原型验证
+
+  # ── 陈述型记忆 ──
+
+  # 过去 - 事件类：Archive
+  archive:
+    title: 档案
+    type: docs
+    category: declarative
+    type_dim: event
+    time_dim: past
+    path: docs/archive
+    description: 量潮科技历史文档归档
+
+  # 过去 - 语义类：Report
+  report:
+    title: 报告
+    type: docs
+    category: declarative
+    type_dim: semantic
+    time_dim: past
+    path: docs/report
+    description: 量潮科技工作报告
+
+  # 过去 - 自我类：Story
+  story:
+    title: 故事
+    type: docs
+    category: declarative
+    type_dim: self
+    time_dim: past
+    path: docs/story
+    description: 量潮科技品牌故事
+
+  # 现在 - 事件类：Journal
+  journal:
+    title: 期刊
+    type: docs
+    category: declarative
+    type_dim: event
+    time_dim: present
+    path: docs/journal
+    description: 量潮科技期刊，团队知识沉淀
+
+  # 现在 - 语义类：Profile
+  profile:
+    title: 配置
+    type: docs
+    category: declarative
+    type_dim: semantic
+    time_dim: present
+    path: docs/profile
+    description: 量潮科技配置模板
+
+  # 现在 - 自我类：Brochure（暂无独立仓库，并入 vision）
+  brochure:
+    title: 宣传册
+    type: docs
+    category: declarative
+    type_dim: self
+    time_dim: present
+    path: docs/vision
+    description: 量潮科技宣传资料
+
+  # 未来 - 事件类：Roadmap
+  roadmap:
+    title: 蓝图
+    type: docs
+    category: declarative
+    type_dim: event
+    time_dim: future
+    path: docs/roadmap
+    description: 量潮科技产品蓝图
+
+  # 未来 - 语义类：Context（暂无独立仓库，并入 specification）
+  context:
+    title: 语境
+    type: docs
+    category: declarative
+    type_dim: semantic
+    time_dim: future
+    path: docs/specification
+    description: 量潮科技工作语境
+
+  # 未来 - 自我类：Vision
+  vision:
+    title: 愿景
+    type: docs
+    category: declarative
+    type_dim: self
+    time_dim: future
+    path: docs/vision
+    description: 量潮科技愿景与使命
