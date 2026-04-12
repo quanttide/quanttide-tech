@@ -10,6 +10,8 @@
 
 本项目的 AI Agent 技能存储在 `.agents/skills/` 目录。
 
+SKILL 维护遵循 [Agent Skills 规范](https://agentskills.io/specification)。
+
 ### SKILL 目录结构
 
 ```
@@ -17,13 +19,6 @@
 ├── <skill-name>/
 │   └── SKILL.md
 ```
-
-### 创建新 SKILL
-
-1. 在 `.agents/skills/` 下创建技能目录
-2. 编写 `SKILL.md`，包含：
-   - YAML 头：`name`、`description`
-   - 技能说明和使用方法
 
 ### SKILL 格式规范
 
@@ -33,6 +28,12 @@ name: <skill-name>
 description: 技能描述，说明使用场景
 ---
 ```
+
+### 创建新 SKILL
+
+1. 在 `.agents/skills/` 下创建技能目录
+2. 编写 `SKILL.md`，包含 YAML 头和技能说明
+3. 参考已有 SKILL 的结构和格式
 
 ### 同步 SKILL 到子仓库
 
@@ -57,35 +58,37 @@ git push
 
 ---
 
-## 子模块操作
+## .quanttide 配置维护
 
-### 更新子模块
+`.quanttide/` 目录是项目的契约事实源。
 
-```bash
-# 查看子模块状态
-git submodule status
+### 契约文件
 
-# 更新所有子模块
-git submodule update --init --recursive
+| 文件 | 用途 |
+|------|------|
+| `.quanttide/asset/contract.yaml` | 数字资产契约 |
+| `.quanttide/docs/contract.yaml` | 文档工程契约 |
 
-# 在子模块中提交并推送
-git -C <子模块路径> commit -m "message"
-git -C <子模块路径> push
-```
+### 添加新契约
 
-### 提交子模块更新
+1. 在 `.quanttide/` 下创建对应分类目录
+2. 创建 `contract.yaml`，包含契约说明
+3. 更新 `.quanttide/README.md` 添加契约索引
+4. 提交并推送
 
-1. 在子模块中提交并推送
-2. 在主仓库提交子模块引用更新
+### 契约格式
 
-```bash
-git -C docs/handbook add -A
-git -C docs/handbook commit -m "feat: update content"
-git -C docs/handbook push
+```yaml
+# 契约名称
+# 模块定位：简述契约用途
 
-git add docs/handbook
-git commit -m "chore: update handbook submodule"
-git push
+# 资产定义
+assets:
+  <asset-name>:
+    title: 资产标题
+    type: 资产类型
+    path: 资产路径
+    description: 资产描述
 ```
 
 ## 工作流程

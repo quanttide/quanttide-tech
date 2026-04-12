@@ -1,7 +1,5 @@
 # AGENTS.md
 
-详细操作指南见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
-
 ## SKILL 快速索引
 
 | 场景 | SKILL 位置 |
@@ -19,6 +17,14 @@
 | `.quanttide/docs/contract.yaml` | 文档工程契约 |
 
 AI Agent 进入仓库后，先读取 `.quanttide/` 目录获取上下文。
+
+## 特殊文件
+
+| 文件 | 用途 |
+|------|------|
+| `AGENTS.md` | AI Agent 工作指南（本文档） |
+| `CONTRIBUTING.md` | 贡献指南和 SKILL 维护 |
+| `.quanttide/` | 契约事实源，配置资产和文档规范 |
 
 ## 工作原则
 
