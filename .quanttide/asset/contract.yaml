@@ -1,0 +1,54 @@
+# 量潮科技工作手册系统 — 数字资产契约
+# 模块定位：多仓架构管理数字资产
+# 参考：.quanttide/asset/contract.md
+
+# ── 资产组成 ──────────────────────────────────────────
+
+assets:
+  # 工作手册
+  handbook:
+    title: 工作手册
+    type: docs
+    category: handbook
+    path: docs/handbook
+    description: 量潮科技工作手册系统，包含 AGENTS.md、CONTRIBUTING.md 等工程规范
+
+  # 案例画廊
+  gallery:
+    title: 案例画廊
+    type: docs
+    category: gallery
+    path: docs/gallery
+    description: 企业实体案例展示框架，按职能板块（connect、execute、think、write）组织
+
+  # 工程标准
+  specification:
+    title: 工程标准
+    type: docs
+    category: specification
+    path: docs/specification
+    description: 量潮科技工程标准规范（文档格式、版本发布、Git使用等）
+
+  # Agent 技能
+  skills:
+    title: Agent 技能
+    type: config
+    category: skill
+    path: .agents/skills
+    description: AI Agent 可复用技能，包含 commit、format 等常用技能
+
+  # 应用项目
+  apps:
+    title: 应用项目
+    type: app
+    category: qtapp
+    path: apps
+    description: 量潮科技应用项目子模块集合
+
+  # 静态资源
+  assets_library:
+    title: 静态资源
+    type: asset
+    category: static
+    path: assets
+    description: 静态资源子模块集合，如图书馆资源
