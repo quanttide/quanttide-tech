@@ -159,7 +159,7 @@ assets:
     category: declarative
     type_dim: semantic
     time_dim: future
-    path: docs/specification
+    path: docs/context
     description: 量潮科技工作语境
 
   vision:

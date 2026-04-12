@@ -69,6 +69,10 @@
 	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
 
 # 未来
+[submodule "docs/context"]
+	path = docs/context
+	url = https://github.com/quanttide/quanttide-context-of-business-entity.git
+
 [submodule "docs/roadmap"]
 	path = docs/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
