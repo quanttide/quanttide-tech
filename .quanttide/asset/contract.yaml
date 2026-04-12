@@ -5,9 +5,7 @@
 
 # ── 资产组成 ──────────────────────────────────────────
 
-# 按程序型记忆九宫格组织
-# 约束力层次：宪法 > 法律 > 法理
-# 消费对象：人类友好 > AI友好 > 规则引擎友好
+# 按记忆模型组织，与 .gitmodules 对齐
 
 assets:
   # ── 程序型记忆 ──
@@ -19,6 +17,7 @@ assets:
     category: constitution
     audience: human
     path: docs/bylaw
+    submodule: docs/bylaw
     description: 量潮科技企业章程，最高约束力
 
   specification:
@@ -27,15 +26,8 @@ assets:
     category: constitution
     audience: ai
     path: docs/specification
+    submodule: docs/specification
     description: 量潮科技工程标准规范
-
-  toolkit:
-    title: 工具箱
-    type: config
-    category: constitution
-    audience: engine
-    path: .agents/skills
-    description: AI Agent 可复用技能
 
   # 法律层：中等约束力
   handbook:
@@ -44,6 +36,7 @@ assets:
     category: law
     audience: human
     path: docs/handbook
+    submodule: docs/handbook
     description: 量潮科技工作手册系统
 
   gallery:
@@ -52,15 +45,35 @@ assets:
     category: law
     audience: ai
     path: docs/gallery
+    submodule: docs/gallery
     description: 企业实体案例展示框架
 
-  platform:
-    title: 平台
+  qtadmin:
+    title: qtadmin
     type: app
     category: law
     audience: engine
-    path: apps
-    description: 量潮科技应用平台
+    path: apps/qtadmin
+    submodule: apps/qtadmin
+    description: Django 管理后台
+
+  qtcloud_data:
+    title: qtcloud-data
+    type: app
+    category: law
+    audience: engine
+    path: apps/qtcloud-data
+    submodule: apps/qtcloud-data
+    description: 量潮云数据应用
+
+  qtcloud_asset:
+    title: qtcloud-asset
+    type: app
+    category: law
+    audience: engine
+    path: apps/qtcloud-asset
+    submodule: apps/qtcloud-asset
+    description: 数字资产管理基础设施
 
   # 法理层：低约束力
   tutorial:
@@ -69,6 +82,7 @@ assets:
     category: principle
     audience: human
     path: docs/tutorial
+    submodule: docs/tutorial
     description: 量潮科技操作手册
 
   essay:
@@ -77,19 +91,12 @@ assets:
     category: principle
     audience: ai
     path: docs/essay
+    submodule: docs/essay
     description: 量潮科技随笔集
-
-  example:
-    title: 示例
-    type: app
-    category: principle
-    audience: engine
-    path: apps/qtcloud-asset/examples
-    description: 示例与原型验证
 
   # ── 陈述型记忆 ──
 
-  # 过去 - 事件类：Archive
+  # 过去
   archive:
     title: 档案
     type: docs
@@ -97,9 +104,9 @@ assets:
     type_dim: event
     time_dim: past
     path: docs/archive
+    submodule: docs/archive
     description: 量潮科技历史文档归档
 
-  # 过去 - 语义类：Report
   report:
     title: 报告
     type: docs
@@ -107,9 +114,9 @@ assets:
     type_dim: semantic
     time_dim: past
     path: docs/report
+    submodule: docs/report
     description: 量潮科技工作报告
 
-  # 过去 - 自我类：Story
   story:
     title: 故事
     type: docs
@@ -117,9 +124,10 @@ assets:
     type_dim: self
     time_dim: past
     path: docs/story
+    submodule: docs/story
     description: 量潮科技品牌故事
 
-  # 现在 - 事件类：Journal
+  # 现在
   journal:
     title: 期刊
     type: docs
@@ -127,9 +135,9 @@ assets:
     type_dim: event
     time_dim: present
     path: docs/journal
+    submodule: docs/journal
     description: 量潮科技期刊，团队知识沉淀
 
-  # 现在 - 语义类：Profile
   profile:
     title: 配置
     type: docs
@@ -137,19 +145,10 @@ assets:
     type_dim: semantic
     time_dim: present
     path: docs/profile
+    submodule: docs/profile
     description: 量潮科技配置模板
 
-  # 现在 - 自我类：Brochure（暂无独立仓库，并入 vision）
-  brochure:
-    title: 宣传册
-    type: docs
-    category: declarative
-    type_dim: self
-    time_dim: present
-    path: docs/vision
-    description: 量潮科技宣传资料
-
-  # 未来 - 事件类：Roadmap
+  # 未来
   roadmap:
     title: 蓝图
     type: docs
@@ -157,19 +156,9 @@ assets:
     type_dim: event
     time_dim: future
     path: docs/roadmap
+    submodule: docs/roadmap
     description: 量潮科技产品蓝图
 
-  # 未来 - 语义类：Context（暂无独立仓库，并入 specification）
-  context:
-    title: 语境
-    type: docs
-    category: declarative
-    type_dim: semantic
-    time_dim: future
-    path: docs/specification
-    description: 量潮科技工作语境
-
-  # 未来 - 自我类：Vision
   vision:
     title: 愿景
     type: docs
@@ -177,4 +166,13 @@ assets:
     type_dim: self
     time_dim: future
     path: docs/vision
+    submodule: docs/vision
     description: 量潮科技愿景与使命
+
+  # ── 本地资源（非子模块） ──
+  skills:
+    title: 技能
+    type: config
+    category: skill
+    path: .agents/skills
+    description: AI Agent 可复用技能
