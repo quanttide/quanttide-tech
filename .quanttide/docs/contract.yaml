@@ -65,11 +65,11 @@ jupyter_book:
 naming:
   filename:
     case: lowercase
-    separator: "-"
-    example: my-document-name.md
+    separator: "_"
+    example: my_document_name.md
     
   directory:
     case: lowercase
-    separator: "-"
+    separator: "_"
     plural: true
-    example: my-directory/
+    example: my_directory/
