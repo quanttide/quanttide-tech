@@ -34,12 +34,12 @@
 [submodule "docs/story"]
 	path = docs/story
 	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
-[submodule "docs/library"]
-	path = docs/library
-	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
 [submodule "docs/vision"]
 	path = docs/vision
 	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
+[submodule "assets/library"]
+	path = assets/library
+	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
 [submodule "apps/qtadmin"]
 	path = apps/qtadmin
 	url = https://github.com/quanttide/qtadmin.git
