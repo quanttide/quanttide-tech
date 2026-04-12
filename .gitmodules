@@ -1,51 +1,83 @@
-[submodule "journal"]
-	path = docs/journal
-	url = https://github.com/quanttide/quanttide-journal-of-business-entity.git
-[submodule "profile"]
-	path = docs/profile
-	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
-[submodule "report"]
-	path = docs/report
-	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+# 量潮科技工作手册系统 — 子模块配置
+# 按记忆模型组织
+
+# ── 程序型记忆 ──
+
+# 宪法层：最高约束力
 [submodule "docs/bylaw"]
 	path = docs/bylaw
 	url = https://github.com/quanttide/quanttide-bylaw-of-business-entity.git
-[submodule "docs/essay"]
-	path = docs/essay
-	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
-[submodule "docs/tutorial"]
-	path = docs/tutorial
-	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
-[submodule "docs/roadmap"]
-	path = docs/roadmap
-	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
-[submodule "docs/archive"]
-	path = docs/archive
-	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
-[submodule "docs/handbook"]
-	path = docs/handbook
-	url = https://github.com/quanttide/quanttide-handbook-of-business-entity.git
-[submodule "docs/gallery"]
-	path = docs/gallery
-	url = https://github.com/quanttide/quanttide-gallery-of-business-entity.git
+
 [submodule "docs/specification"]
 	path = docs/specification
 	url = https://github.com/quanttide/quanttide-specification-of-business-entity.git
-[submodule "docs/story"]
-	path = docs/story
-	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
-[submodule "docs/vision"]
-	path = docs/vision
-	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
-[submodule "assets/library"]
-	path = assets/library
-	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+
+# .agents/skills 为本地目录，非子模块
+
+# 法律层：中等约束力
+[submodule "docs/handbook"]
+	path = docs/handbook
+	url = https://github.com/quanttide/quanttide-handbook-of-business-entity.git
+
+[submodule "docs/gallery"]
+	path = docs/gallery
+	url = https://github.com/quanttide/quanttide-gallery-of-business-entity.git
+
 [submodule "apps/qtadmin"]
 	path = apps/qtadmin
 	url = https://github.com/quanttide/qtadmin.git
+
 [submodule "apps/qtcloud-data"]
 	path = apps/qtcloud-data
 	url = https://github.com/quanttide/qtcloud-data.git
+
 [submodule "apps/qtcloud-asset"]
 	path = apps/qtcloud-asset
 	url = https://github.com/quanttide/qtcloud-asset.git
+
+# 法理层：低约束力
+[submodule "docs/tutorial"]
+	path = docs/tutorial
+	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
+
+[submodule "docs/essay"]
+	path = docs/essay
+	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
+
+# ── 陈述型记忆 ──
+
+# 过去
+[submodule "docs/archive"]
+	path = docs/archive
+	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
+
+[submodule "docs/report"]
+	path = docs/report
+	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+
+[submodule "docs/story"]
+	path = docs/story
+	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
+
+# 现在
+[submodule "docs/journal"]
+	path = docs/journal
+	url = https://github.com/quanttide/quanttide-journal-of-business-entity.git
+
+[submodule "docs/profile"]
+	path = docs/profile
+	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
+
+# 未来
+[submodule "docs/roadmap"]
+	path = docs/roadmap
+	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
+
+[submodule "docs/vision"]
+	path = docs/vision
+	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
+
+# ── 静态资源 ──
+[submodule "assets/library"]
+	path = assets/library
+	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
