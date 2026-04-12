@@ -1,29 +1,61 @@
 # CONTRIBUTING
 
-项目结构见 [README](./README.md)。
+本项目是量潮科技工作手册系统，采用多仓架构管理数字资产。
 
-## 使用场景
+## 项目结构
 
-### 文档更新
+见 [README](./README.md)。
 
-修改 `docs/` 下的子模块内容，在子模块内提交并推送，然后更新主仓库引用。
+## SKILL 维护指南
 
-1. 子模块内提交：`git -C docs/handbook commit -m "docs: update content"`
-2. 子模块内推送：`git -C docs/handbook push`
-3. 更新主仓库引用：`git add docs/handbook && git commit -m "chore: update handbook submodule"`
+本项目的 AI Agent 技能存储在 `.agents/skills/` 目录。
 
-### 代码开发
+### SKILL 目录结构
 
-修改 `src/` 下的子模块，遵循子模块内的 AGENTS.md 规范。
+```
+.agents/skills/
+├── <skill-name>/
+│   └── SKILL.md
+```
 
-## 工作原则
+### 创建新 SKILL
 
-1. 最小干预：仅在用户明确请求时操作
-2. 原子提交：每次提交独立完整
-3. 验证优先：修改后检查文件命名和内容
-4. 明确命名：严格按照规范命名文件
-5. 反思学习：从错误中学习并改进工作流程
-6. 写作规范：遵循本文档中的文档写作标准
+1. 在 `.agents/skills/` 下创建技能目录
+2. 编写 `SKILL.md`，包含：
+   - YAML 头：`name`、`description`
+   - 技能说明和使用方法
+
+### SKILL 格式规范
+
+```yaml
+---
+name: <skill-name>
+description: 技能描述，说明使用场景
+---
+```
+
+### 同步 SKILL 到子仓库
+
+稳定的 SKILL 可同步到 gallery 仓库：
+
+```bash
+# 复制到 gallery
+cp .agents/skills/<skill>/SKILL.md docs/gallery/devops/<skill>/SKILL.md
+
+# 在 gallery 子模块提交
+cd docs/gallery
+git add devops/<skill>/SKILL.md
+git commit -m "docs: add <skill> skill"
+git push
+
+# 更新主仓库引用
+cd ..
+git add docs/gallery
+git commit -m "chore: update gallery submodule"
+git push
+```
+
+---
 
 ## 子模块操作
 
@@ -62,41 +94,3 @@ git push
 2. 开发：在分支上进行开发
 3. 提交：使用 Conventional Commits 格式提交
 4. 推送：推送分支并创建 PR
-
----
-
-## 文档写作标准
-
-遵循 [Google 文档风格指南](https://google.github.io/styleguide/docguide/style.html)和[量潮科技写作格式标准](../specification/write/format.md)。
-
-### 写作原则
-
-- 删：删除不必要的格式元素，优先用段落和标题
-- 简：能用列表就不表格，能用文字就不列表
-- 少：全文格式元素（分隔线、表格、加粗）尽量少
-- 一：同一概念全程使用相同名称
-
-### 核心原则
-
-- 简洁：删除冗余词汇，用词简洁
-- 一致：全文术语统一，格式一致
-- 主动：使用主动语态，直接表达
-- 具体：提供具体示例，避免模糊表述
-
-### 具体规范
-
-1. 语言简洁：删除不必要的修饰词，避免"非常"、"简单的"、"也就是"
-2. 主动语态：优先使用主动句，如"Agent 创建文件"而非"文件被 Agent 创建"
-3. 术语统一：同一概念全程使用相同术语
-4. 标题层级：最多使用三级标题
-5. 列表一致性：无序列表用 `-`，有序列表用 `1.`
-6. 代码块标注：必须标注语言类型
-
-```bash
-git status
-```
-
-```python
-def hello():
-    print("Hello")
-```
