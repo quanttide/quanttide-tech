@@ -24,7 +24,9 @@ AI Agent 进入仓库后，先读取 `.quanttide/` 目录获取上下文。
 |------|------|
 | `AGENTS.md` | AI Agent 工作指南（本文档） |
 | `CONTRIBUTING.md` | 贡献指南和 SKILL 维护 |
-| `.quanttide/` | 契约事实源，配置资产和文档规范 |
+| `README.md` | 项目说明 |
+| `ROADMAP.md` | 产品路线图 |
+| `CHANGELOG.md` | 版本变更记录 |
 
 ## 工作原则
 
