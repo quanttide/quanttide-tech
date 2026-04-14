@@ -6,6 +6,7 @@
 |------|-----------|----------|
 | 提交代码 | `.agents/skills/devops-commit/SKILL.md` | 用户请求提交代码时（含子模块提交） |
 | 发布版本 | `.agents/skills/devops-release/SKILL.md` | 用户请求发布新版本、打标签时 |
+| 流程审查 | `.agents/skills/devops-review/SKILL.md` | 发布前审查、代码审查、文档审查时 |
 | 文档格式 | `.agents/skills/docs-format/SKILL.md` | 操作 Markdown 文档时 |
 | 子模块操作 | `.agents/skills/devops-submodule/SKILL.md` | 操作 Git 子模块（更新、提交子模块）时 |
 
