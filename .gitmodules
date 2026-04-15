@@ -85,3 +85,6 @@
 [submodule "assets/library"]
 	path = assets/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+[submodule "docs/brochure"]
+	path = docs/brochure
+	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
