@@ -7,21 +7,21 @@ standards:
   format:
     syntax: myst
     markdown_flavor: gfm
-    
+
   headings:
     max_level: 3
     document_title: h1
     section: h2
     subsection: h3
-    
+
   code_blocks:
     language_required: true
     fence_style: fenced
-    
+
   lists:
     unordered: "-"
     ordered: "1."
-    
+
   links:
     reference: "[text](url)"
     inline: "[text](url)"
@@ -35,14 +35,14 @@ myst_syntax:
     - danger
     - tip
     - important
-    
+
   toc:
     enabled: true
     depth: 2
-    
+
   cross_references: true
   internal_links: true
-  
+
   execution:
     enabled: false
     cache: false
@@ -52,11 +52,11 @@ myst_syntax:
 jupyter_book:
   config_file: _config.yml
   toc_file: _toc.yml
-  
+
   build:
     command: jupyter-book build index.md --site
     output_dir: _build/html
-    
+
   clean:
     command: jupyter-book clean .
 
@@ -65,11 +65,11 @@ jupyter_book:
 naming:
   filename:
     case: lowercase
-    separator: "_"
-    example: my_document_name.md
-    
+    separators: ["_", "-"]
+    example: my-document-name.md
+
   directory:
     case: lowercase
-    separator: "_"
+    separators: ["_", "-"]
     plural: true
     example: my_directory/
