@@ -2,6 +2,20 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.2.0] - 2026-04-16
+
+### 新增
+
+- devops-release 技能：发布 Git 仓库 Release，支持子模块和主仓库两种发布流程
+- devops-review 技能：审查仓库状态、CHANGELOG、版本一致性等
+- ROADMAP.md 产品路线图文档
+- docs/brochure 子模块
+
+### 变更
+
+- 更新多个子模块：handbook(v0.0.4-54)、tutorial、gallery、context(v0.1.0-5)、specification(v0.1.3)
+- 更新文件命名规范，支持 _ 和 - 分隔符
+
 ## [0.1.2] - 2026-04-12
 
 ### 新增
