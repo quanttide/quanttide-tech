@@ -7,10 +7,12 @@
 [submodule "docs/bylaw"]
 	path = docs/bylaw
 	url = https://github.com/quanttide/quanttide-bylaw-of-business-entity.git
+	branch = main
 
 [submodule "docs/specification"]
 	path = docs/specification
 	url = https://github.com/quanttide/quanttide-specification-of-business-entity.git
+	branch = main
 
 # .agents/skills 为本地目录，非子模块
 
@@ -30,6 +32,7 @@
 [submodule "apps/qtcloud-data"]
 	path = apps/qtcloud-data
 	url = https://github.com/quanttide/qtcloud-data.git
+	branch = main
 
 [submodule "apps/qtcloud-asset"]
 	path = apps/qtcloud-asset
@@ -43,6 +46,7 @@
 [submodule "docs/essay"]
 	path = docs/essay
 	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
+	branch = main
 
 # ── 陈述型记忆 ──
 
@@ -50,14 +54,17 @@
 [submodule "docs/archive"]
 	path = docs/archive
 	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
+	branch = main
 
 [submodule "docs/report"]
 	path = docs/report
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+	branch = main
 
 [submodule "docs/story"]
 	path = docs/story
 	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
+	branch = main
 
 # 现在
 [submodule "docs/journal"]
@@ -76,15 +83,18 @@
 [submodule "docs/roadmap"]
 	path = docs/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
+	branch = main
 
 [submodule "docs/vision"]
 	path = docs/vision
 	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
+	branch = main
 
 # ── 静态资源 ──
 [submodule "assets/library"]
 	path = assets/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+	branch = main
 [submodule "docs/brochure"]
 	path = docs/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
