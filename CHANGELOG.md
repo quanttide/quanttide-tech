@@ -2,6 +2,12 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.2.1] - 2026-04-20
+
+### 变更
+
+- 更新子模块：roadmap(v0.0.1)、archive
+
 ## [0.2.0] - 2026-04-16
 
 ### 新增
