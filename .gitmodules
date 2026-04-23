@@ -83,3 +83,9 @@
 [submodule "docs/essay"]
 	path = docs/essay
 	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
+[submodule "apps/qtdata"]
+	path = apps/qtdata
+	url = https://github.com/quanttide/qtdata.git
+[submodule "apps/qtclass"]
+	path = apps/qtclass
+	url = https://github.com/quanttide/qtclass.git
