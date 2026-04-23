@@ -33,14 +33,6 @@
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
 
-[submodule "docs/essay"]
-	path = docs/essay
-	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
-	branch = main
-
-# ── 陈述型记忆 ──
-
-# 过去
 [submodule "docs/archive"]
 	path = docs/archive
 	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
@@ -88,3 +80,6 @@
 [submodule "docs/brochure"]
 	path = docs/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
+[submodule "docs/essay"]
+	path = docs/essay
+	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
