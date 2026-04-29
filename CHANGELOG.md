@@ -2,6 +2,11 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.3.0] - 2026-04-29
+
+### 变更
+- 更新子模块：qtadmin（移除过期文档）、qtdata（添加示例文件）、brochure（更新案例故事）、roadmap（内部培训文档）、story（同步思维笔记）
+
 ## [0.2.2] - 2026-04-27
 
 ### 变更
