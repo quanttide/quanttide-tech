@@ -98,6 +98,46 @@ assets:
 3. 提交：使用 Conventional Commits 格式提交
 4. 推送：推送分支并创建 PR
 
+## 文档门户
+
+本项目通过 `docs/index.md` 提供文档中心门户，按记忆模型分类链接到各子模块仓库。
+
+### 构建与部署
+
+| 文件 | 作用 |
+|------|------|
+| `docs/index.md` | 门户首页，按记忆模型分类列出子模块链接 |
+| `docs/myst.yml` | MyST 项目配置，声明 toc、exclude、site 模板 |
+| `.github/workflows/deploy-docs.yml` | CI：推送 docs/ 变更时自动构建并部署到 GitHub Pages |
+
+**构建命令**：`myst build --html`（输出到 `_build/html/`，生成静态 HTML）
+
+**排除子模块**：`myst.yml` 中 `project.exclude` 列出所有子模块目录，避免 MyST 递归扫描。
+
+**部署地址**：`https://quanttide.github.io/quanttide-tech/`
+
+### 新增子模块时
+
+1. 将新子模块路径加入 `docs/myst.yml` 的 `project.exclude`
+2. 在 `docs/index.md` 添加对应链接
+
+## 发布规范
+
+### 子模块版本标注
+
+CHANGELOG 中涉及子模块更新的条目，必须标注目标 tag 版本号：
+
+```markdown
+### 变更
+- 更新子模块：qtadmin(v0.2.0)、tutorial(v0.0.3)、roadmap(v0.0.2)
+```
+
+版本号来源于子模块自身的 git tag。未发布的子模块用 commit SHA 前 7 位代替。
+
+### 发布流程
+
+详见 `.agents/skills/devops-release/SKILL.md`。
+
 ## 更新流程
 
 当发生错误或问题时，按以下流程处理：
