@@ -13,6 +13,7 @@ description: 发布 Git 仓库 Release，支持子模块和主仓库两种发布
 - 发布前确认工作区干净
 - Release notes 只包含对应版本内容
 - 发布主仓库前确认所有子模块引用是最新的
+- 主仓库 CHANGELOG 涉及子模块更新的条目必须标注具体 tag 版本号，格式为 `子模块名(vX.Y.Z)`
 
 ## 依赖
 
@@ -55,6 +56,18 @@ if git tag -l | grep -q "^${VERSION}$"; then
   echo "错误: 标签 $VERSION 已存在"
   exit 1
 fi
+
+# 检查子模块版本是否标注 tag
+SUBMODULE_LINES=$(echo "$NOTES" | grep -E '更新子模块|新增子模块')
+if [ -n "$SUBMODULE_LINES" ]; then
+  MISSING_TAG=$(echo "$SUBMODULE_LINES" | grep -v '(v[0-9]')
+  if [ -n "$MISSING_TAG" ]; then
+    echo "错误: 以下子模块条目缺少版本号标签 (格式: name(vX.Y.Z)):"
+    echo "$MISSING_TAG"
+    exit 1
+  fi
+fi
+echo "✓ 子模块版本标签已标注"
 
 # 预览 Release Notes
 echo "=== Release Notes 预览 ==="
@@ -161,10 +174,12 @@ gh release delete vX.Y.Z-rc.1 --repo quanttide/quanttide-founder --yes
 | 工作区脏 | 有未提交变更 | 提交或暂存变更后再发布 |
 | Release Notes 为空 | 版本格式不匹配 | 检查 CHANGELOG 版本标题格式 |
 | 子模块未更新 | 子模块有新提交 | 执行 `git submodule update --remote` |
+| 子模块缺少版本标签 | CHANGELOG 中未标注子模块 tag | 在每个子模块后加版本号，如 `qtadmin(v0.2.0)` |
 
 ## 预发布检查清单
 
 - [ ] 所有子模块版本已锁定
+- [ ] CHANGELOG 中子模块条目标注了版本 tag
 - [ ] 通过 CI 测试
 - [ ] CHANGELOG.md 版本段已验证
 - [ ] 执行过 `npm run build` (如适用)
