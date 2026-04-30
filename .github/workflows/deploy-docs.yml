@@ -7,29 +7,43 @@ on:
       - docs/**
   workflow_dispatch:
 
+env:
+  BASE_URL: /${{ github.event.repository.name }}
+
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Install mystmd
+      - name: Install MyST
         run: npm install -g mystmd
 
-      - name: Build docs
-        run: myst build
+      - name: Build HTML
+        run: myst build --html
         working-directory: docs
 
-      - uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_build/site
+          path: docs/_build/html
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
