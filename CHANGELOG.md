@@ -2,6 +2,15 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.3.1] - 2026-04-30
+
+### 新增
+- 新增子模块：qtweb
+- 新增文档：zstu 大数据微专业蓝图、qtdata 与 qtclass 工作方案
+
+### 变更
+- 更新子模块：qtadmin、tutorial、roadmap
+
 ## [0.3.0] - 2026-04-29
 
 ### 变更
