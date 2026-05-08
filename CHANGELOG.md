@@ -2,6 +2,12 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.5.1] - 2026-05-08
+
+### 变更
+
+- 更新子模块：qtadmin(v0.0.7)、qtclass(v0.0.1)、qtdata、library、brochure、profile(v0.1.3)、report
+
 ## [0.5.0] - 2026-05-08
 
 ### 变更
