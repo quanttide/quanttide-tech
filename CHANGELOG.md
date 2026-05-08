@@ -2,6 +2,13 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.5.0] - 2026-05-08
+
+### 变更
+
+- 移除子模块：qtgame-tycoon
+- 新增子模块：qtconsult(v0.1.0)、qtcloud
+
 ## [0.4.3] - 2026-05-05
 
 ### 变更
