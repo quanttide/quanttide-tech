@@ -92,6 +92,9 @@
 [submodule "apps/qtweb"]
 	path = apps/qtweb
 	url = https://github.com/quanttide/qtweb.git
-[submodule "apps/qtgame-tycoon"]
-	path = apps/qtgame-tycoon
-	url = https://github.com/quanttide/qtgame-tycoon
+[submodule "apps/qtcloud"]
+	path = apps/qtcloud
+	url = https://github.com/quanttide/qtcloud.git
+[submodule "apps/qtconsult"]
+	path = apps/qtconsult
+	url = https://github.com/quanttide/qtconsult.git
