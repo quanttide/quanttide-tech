@@ -2,6 +2,18 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.5.2] - 2026-05-11
+
+### 新增
+
+- 文档站点：为 tutorial、bylaw、vision 子模块配置 MyST 文档站点及 GitHub Pages 自动部署
+- docs-deploy SKILL：标准化 MyST 文档部署流程
+- 主仓库 TOC 新增子站点链接（工作教程、工作章程、业务愿景）
+
+### 变更
+
+- 更新子模块：tutorial(v0.2.0)、bylaw(v0.3.0)、archive(v0.1.0)、vision(v0.2.0)
+
 ## [0.5.1] - 2026-05-08
 
 ### 变更
