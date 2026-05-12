@@ -1,7 +1,7 @@
 version: 1
 project:
-  title: 量潮科技文档中心
-  description: 量潮科技第二大脑 — 企业知识库门户
+  title: 量潮科技第二大脑
+  description: 量潮科技第二大脑
   keywords:
     - quanttide
     - documentation
