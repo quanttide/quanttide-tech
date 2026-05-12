@@ -2,6 +2,16 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.5.3] - 2026-05-12
+
+### 变更
+
+- 重构 myst.yml：不依赖子仓库，子站点全部引用已部署的 GitHub Pages URL
+- 简化部署工作流：只构建 docs/，不再构建子模块
+- 更新 index.md 为已发布链接清单表格
+- 新增子站点：宣传册 (brochure)、品牌故事 (story)
+- 更新子模块：handbook(v0.2.1)、tutorial(v0.2.2)、bylaw(v0.3.1)、qtdata
+
 ## [0.5.2] - 2026-05-11
 
 ### 新增
