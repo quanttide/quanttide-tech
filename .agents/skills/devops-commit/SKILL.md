@@ -32,7 +32,28 @@ git commit -m "docs: 更新 README"
 
 ## 提交流程
 
-### 1. 检查状态
+### 1. 同步远程
+
+```bash
+git fetch && git pull
+```
+
+若产生冲突：
+
+```bash
+# 查看冲突文件
+git status
+
+# 手动解决冲突后标记已解决
+git add <resolved-file>
+
+# 继续变基或合并
+git rebase --continue  # 若 pull 使用 rebase
+# 或
+git merge --continue   # 若 pull 使用 merge
+```
+
+### 2. 检查状态
 
 ```bash
 git status
@@ -42,7 +63,7 @@ git status
 - 未暂存的修改（Changes not staged for commit）
 - 已暂存的修改（Changes to be committed）
 
-### 2. 添加文件
+### 3. 添加文件
 
 ```bash
 # 添加单个文件
@@ -52,13 +73,13 @@ git add <file>
 git add -A
 ```
 
-### 3. 提交
+### 4. 提交
 
 ```bash
 git commit -m "<type>: <description>"
 ```
 
-### 4. 确认
+### 5. 确认
 
 ```bash
 git status
@@ -66,7 +87,7 @@ git status
 
 确认提交成功，当前分支应领先 origin/main n 个提交。
 
-### 5. 推送（如需）
+### 6. 推送
 
 ```bash
 git push
