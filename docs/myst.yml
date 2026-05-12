@@ -8,20 +8,29 @@ project:
   license: CC-BY-4.0
   toc:
     - file: index.md
-    - title: 子站点
+    - title: 程序性记忆
       children:
-        - title: 工作章程
-          url: https://quanttide.github.io/quanttide-bylaw-of-business-entity/
-        - title: 工作手册
-          url: https://quanttide.github.io/quanttide-handbook-of-business-entity/
-        - title: 工作教程
-          url: https://quanttide.github.io/quanttide-tutorial-of-business-entity/
-        - title: 工作愿景
-          url: https://quanttide.github.io/quanttide-vision-of-business-entity/
-        - title: 宣传册
-          url: https://quanttide.github.io/quanttide-brochure-of-business-entity/
-        - title: 品牌故事
-          url: https://quanttide.github.io/quanttide-story-of-business-entity/
+        - title: 人类视角
+          children:
+            - title: 工作章程
+              url: https://quanttide.github.io/quanttide-bylaw-of-business-entity/
+            - title: 工作手册
+              url: https://quanttide.github.io/quanttide-handbook-of-business-entity/
+            - title: 工作教程
+              url: https://quanttide.github.io/quanttide-tutorial-of-business-entity/
+        - title: AI视角
+    - title: 陈述性记忆
+      children:
+        - title: 自我记忆
+          children:
+            - title: 工作愿景
+              url: https://quanttide.github.io/quanttide-vision-of-business-entity/
+            - title: 宣传册
+              url: https://quanttide.github.io/quanttide-brochure-of-business-entity/
+            - title: 品牌故事
+              url: https://quanttide.github.io/quanttide-story-of-business-entity/
+        - title: 语义记忆
+        - title: 事件记忆
   exclude:
     - archive/**
     - brochure/**
