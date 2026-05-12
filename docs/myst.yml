@@ -10,36 +10,18 @@ project:
     - file: index.md
     - title: 子站点
       children:
-        - title: 章程
+        - title: 工作章程
           url: https://quanttide.github.io/quanttide-bylaw-of-business-entity/
-        - title: 规范
-          url: https://quanttide.github.io/quanttide-specification-of-business-entity/
-        - title: 手册
+        - title: 工作手册
           url: https://quanttide.github.io/quanttide-handbook-of-business-entity/
-        - title: 图库
-          url: https://quanttide.github.io/quanttide-gallery-of-business-entity/
-        - title: 教程
+        - title: 工作教程
           url: https://quanttide.github.io/quanttide-tutorial-of-business-entity/
-        - title: 归档
-          url: https://quanttide.github.io/quanttide-archive-of-business-entity/
-        - title: 报告
-          url: https://quanttide.github.io/quanttide-report-of-business-entity/
-        - title: 故事
-          url: https://quanttide.github.io/quanttide-story-of-business-entity/
-        - title: 日志
-          url: https://quanttide.github.io/quanttide-journal-of-business-entity/
-        - title: 档案
-          url: https://quanttide.github.io/quanttide-profile-of-business-entity/
-        - title: 上下文
-          url: https://quanttide.github.io/quanttide-context-of-business-entity/
-        - title: 路线图
-          url: https://quanttide.github.io/quanttide-roadmap-of-business-entity/
-        - title: 愿景
+        - title: 工作愿景
           url: https://quanttide.github.io/quanttide-vision-of-business-entity/
         - title: 宣传册
           url: https://quanttide.github.io/quanttide-brochure-of-business-entity/
-        - title: 随笔
-          url: https://quanttide.github.io/quanttide-essay-of-business-entity/
+        - title: 品牌故事
+          url: https://quanttide.github.io/quanttide-story-of-business-entity/
   exclude:
     - archive/**
     - brochure/**
