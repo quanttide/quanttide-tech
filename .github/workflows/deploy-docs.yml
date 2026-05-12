@@ -35,9 +35,22 @@ jobs:
       - name: Install MyST
         run: npm install -g mystmd
 
-      - name: Build HTML
+      - name: Build Main Docs HTML
         run: myst build --html
         working-directory: docs
+        env:
+          BASE_URL: /${{ github.event.repository.name }}
+
+      - name: Build Story HTML
+        run: myst build --html
+        working-directory: docs/story
+        env:
+          BASE_URL: /${{ github.event.repository.name }}/story
+
+      - name: Combine artifacts
+        run: |
+          mkdir -p docs/_build/html/story
+          cp -r docs/story/_build/html/. docs/_build/html/story/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
