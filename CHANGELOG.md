@@ -2,6 +2,13 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.6.1] - 2026-05-15
+
+### 变更
+
+- 移动子模块路径：archive(docs/archive → archive)、library(assets/library → docs/library)
+- 删除已空的 assets/ 目录
+
 ## [0.6.0] - 2026-05-15
 
 ### 新增
