@@ -98,3 +98,6 @@
 [submodule "apps/qtconsult"]
 	path = apps/qtconsult
 	url = https://github.com/quanttide/qtconsult.git
+[submodule "examples/company"]
+	path = examples/default
+	url = https://github.com/quanttide/quanttide-example-of-business-entity.git
