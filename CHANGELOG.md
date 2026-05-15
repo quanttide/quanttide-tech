@@ -2,6 +2,18 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.6.0] - 2026-05-15
+
+### 新增
+
+- 新增子模块：examples/default(v0.0.1)
+
+### 变更
+
+- 更新子模块：bylaw(v0.4.0)、qtconsult、qtdata
+- 重构 docs/ 导航分类为程序性记忆与陈述性记忆
+- 统一协议：docs 下 CC-BY-4.0，apps 下 Apache 2.0
+
 ## [0.5.3] - 2026-05-12
 
 ### 变更
