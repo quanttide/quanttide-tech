@@ -102,3 +102,6 @@
 [submodule "apps/qtcloud-business"]
 	path = apps/qtcloud-business
 	url = https://github.com/quanttide/qtcloud-business.git
+[submodule "apps/qtcloud-delib"]
+	path = apps/qtcloud-delib
+	url = https://github.com/quanttide/qtcloud-delib.git
