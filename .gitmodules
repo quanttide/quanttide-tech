@@ -99,3 +99,6 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
+[submodule "apps/qtcloud-business"]
+	path = apps/qtcloud-business
+	url = https://github.com/quanttide/qtcloud-business.git
