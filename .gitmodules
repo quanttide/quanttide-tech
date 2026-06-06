@@ -38,12 +38,6 @@
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
 	branch = main
 
-[submodule "docs/story"]
-	path = docs/story
-	url = https://github.com/quanttide/quanttide-story-of-business-entity.git
-	branch = main
-
-# 现在
 [submodule "docs/journal"]
 	path = docs/journal
 	url = https://github.com/quanttide/quanttide-journal-of-business-entity.git
@@ -108,3 +102,6 @@
 [submodule "apps/qtcloud-org"]
 	path = apps/qtcloud-org
 	url = https://github.com/quanttide/qtcloud-org.git
+[submodule "docs/history"]
+	path = docs/history
+	url = https://github.com/quanttide/quanttide-history-of-business-entity.git
