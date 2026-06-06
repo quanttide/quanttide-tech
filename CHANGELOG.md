@@ -2,6 +2,25 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.6.3] - 2026-06-03
+
+### 新增
+
+- 新增子模块：qtcloud-business、qtcloud-delib、qtcloud-org（PoC 案例逐域拆分）
+- 商务报价三条线完成：章程(v0.5.3) + 手册(场景化) + 教程(定价思维)
+- PoC 清单：新增 examples/README.md，覆盖 10 个业务域
+
+### 变更
+
+- archive 子模块：archive/ → docs/archive/
+- examples/default：重新指向 laboratory 仓库
+- docs/story → docs/history（云端仓库名 + 本地路径同步重命名）
+- 更新子模块：bylaw(v0.5.3)、handbook、tutorial、report、journal、profile、library
+
+### 移除
+
+- 旧 examples/default（指向 example 仓库）
+
 ## [0.6.2] - 2026-05-19
 
 ### 变更
