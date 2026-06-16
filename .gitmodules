@@ -79,15 +79,6 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
-[submodule "apps/qtcloud-business"]
-	path = apps/qtcloud-business
-	url = https://github.com/quanttide/qtcloud-business.git
-[submodule "apps/qtcloud-delib"]
-	path = apps/qtcloud-delib
-	url = https://github.com/quanttide/qtcloud-delib.git
-[submodule "apps/qtcloud-org"]
-	path = apps/qtcloud-org
-	url = https://github.com/quanttide/qtcloud-org.git
 [submodule "docs/history"]
 	path = docs/history
 	url = https://github.com/quanttide/quanttide-history-of-business-entity.git
