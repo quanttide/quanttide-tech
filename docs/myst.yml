@@ -23,8 +23,8 @@ project:
       children:
         - title: 自我记忆
           children:
-            - title: 工作愿景
-              url: https://quanttide.github.io/quanttide-vision-of-business-entity/
+            - title: 工作意图
+              url: https://quanttide.github.io/quanttide-intention-of-business-entity/
             - title: 宣传册
               url: https://quanttide.github.io/quanttide-brochure-of-business-entity/
             - title: 品牌故事
@@ -46,6 +46,6 @@ project:
     - specification/**
     - story/**
     - tutorial/**
-    - vision/**
+    - intention/**
 site:
   template: book-theme
