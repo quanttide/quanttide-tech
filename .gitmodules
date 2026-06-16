@@ -73,9 +73,6 @@
 [submodule "apps/qtconsult"]
 	path = apps/qtconsult
 	url = https://github.com/quanttide/qtconsult.git
-[submodule "docs/archive"]
-	path = docs/archive
-	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
@@ -94,3 +91,6 @@
 [submodule "data/insight"]
 	path = data/insight
 	url = https://github.com/quanttide/quanttide-insight-of-business-entity.git
+[submodule "data/archive"]
+	path = data/archive
+	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
