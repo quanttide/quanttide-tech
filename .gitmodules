@@ -33,10 +33,6 @@
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
 
-[submodule "docs/context"]
-	path = docs/context
-	url = https://github.com/quanttide/quanttide-context-of-business-entity.git
-
 [submodule "docs/vision"]
 	path = docs/vision
 	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
@@ -92,3 +88,6 @@
 [submodule "data/report"]
 	path = data/report
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+[submodule "data/context"]
+	path = data/context
+	url = https://github.com/quanttide/quanttide-context-of-business-entity.git
