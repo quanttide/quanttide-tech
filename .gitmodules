@@ -39,10 +39,6 @@
 	branch = main
 
 # ── 静态资源 ──
-[submodule "docs/library"]
-	path = docs/library
-	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
-	branch = main
 [submodule "docs/brochure"]
 	path = docs/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
@@ -91,3 +87,6 @@
 [submodule "data/context"]
 	path = data/context
 	url = https://github.com/quanttide/quanttide-context-of-business-entity.git
+[submodule "data/library"]
+	path = data/library
+	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
