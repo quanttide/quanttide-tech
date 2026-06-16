@@ -27,8 +27,8 @@ project:
               url: https://quanttide.github.io/quanttide-intention-of-business-entity/
             - title: 宣传册
               url: https://quanttide.github.io/quanttide-brochure-of-business-entity/
-            - title: 品牌故事
-              url: https://quanttide.github.io/quanttide-story-of-business-entity/
+            - title: 工作历史
+              url: https://quanttide.github.io/quanttide-history-of-business-entity/
         - title: 语义记忆
         - title: 事件记忆
   exclude:
