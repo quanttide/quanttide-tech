@@ -33,9 +33,9 @@
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
 
-[submodule "docs/vision"]
-	path = docs/vision
-	url = https://github.com/quanttide/quanttide-vision-of-business-entity.git
+[submodule "docs/intention"]
+	path = docs/intention
+	url = https://github.com/quanttide/quanttide-intention-of-business-entity.git
 	branch = main
 
 # ── 静态资源 ──
