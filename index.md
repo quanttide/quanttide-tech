@@ -24,7 +24,7 @@
 
 ## 职能角色
 
-### 商务经理
+### 商务拓展
 
 章程：
 - [量潮商务报价章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/business/quotation) — 报价规则与审批层级
