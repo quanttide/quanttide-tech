@@ -37,6 +37,13 @@ project:
             - title: 工作历史
               url: https://quanttide.github.io/quanttide-history-of-business-entity/
         - title: 语义记忆
+          children:
+            - title: 工作洞察
+              url: https://quanttide.github.io/quanttide-insight-of-business-entity/
+            - title: 工作档案
+              url: https://quanttide.github.io/quanttide-profile-of-business-entity/
+            - title: 图书馆
+              url: https://quanttide.github.io/quanttide-library-of-business-entity/
         - title: 事件记忆
   exclude:
     - archive/**
