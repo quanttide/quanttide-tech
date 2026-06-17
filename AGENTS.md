@@ -28,6 +28,7 @@ AI Agent 进入仓库后，先读取 `.quanttide/` 目录获取上下文。
 | `README.md` | 项目说明 |
 | `ROADMAP.md` | 产品路线图 |
 | `CHANGELOG.md` | 版本变更记录 |
+| `index.md` | MyST 站点首页导航门户，按角色（业务/职能）组织链接。修改时同步新增/删除的子模块或文件 |
 
 ## 元认知规则
 
