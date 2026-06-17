@@ -6,9 +6,9 @@
 
 章程：
 - [客户支持章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/qtdata/support) — 售后响应机制与审计检查
-- [安全合规章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/qtdata/security) — 数据安全与资产管理
-- [服务流程章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/qtdata/service) — 项目交付六阶段流程
-- [报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtdata/business/quotation) — 数据服务定价规则
+
+档案：
+- [量潮数据报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtdata/business/quotation) — 数据服务定价规则
 
 ## 职能角色
 
