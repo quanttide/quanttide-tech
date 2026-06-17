@@ -46,3 +46,4 @@ Thumbs.db
 # Cache
 .ruff_cache/
 .pytest_cache/
+docs/_build/
