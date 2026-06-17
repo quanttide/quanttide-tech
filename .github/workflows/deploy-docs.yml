@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - docs/**
+      - myst.yml
+      - index.md
   workflow_dispatch:
 
 env:
@@ -37,12 +39,11 @@ jobs:
 
       - name: Build HTML
         run: myst build --html
-        working-directory: docs
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/_build/html
+          path: _build/html
 
       - name: Deploy to GitHub Pages
         id: deployment
