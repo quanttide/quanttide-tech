@@ -2,6 +2,18 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.7.0] - 2026-06-17
+
+### 变更
+
+- 重构：docs/ 下子模块迁移至 data/（archive、report、context、library、brochure、intention、history）
+- 重构：myst.yml 和 index.md 从 docs/ 移至根目录
+- 重构：docs/vision → docs/intention
+- 添加子模块：docs/intention
+- 移除子模块：qtcloud-business、qtcloud-delib、qtcloud-org
+- 重写 index.md 为角色化导航门户
+- 更新子模块：bylaw(v0.6.1)、handbook(v0.4.0)、profile、roadmap、qtadmin、qtdata、examples、gallery、essay
+
 ## [0.6.9] - 2026-06-15
 
 ### 变更
