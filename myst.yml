@@ -19,6 +19,13 @@ project:
             - title: 工作教程
               url: https://quanttide.github.io/quanttide-tutorial-of-business-entity/
         - title: AI视角
+          children:
+            - title: 工程标准
+              url: https://quanttide.github.io/quanttide-specification-of-business-entity/
+            - title: 工作案例
+              url: https://quanttide.github.io/quanttide-gallery-of-business-entity/
+            - title: 工作札记
+              url: https://quanttide.github.io/quanttide-essay-of-business-entity/
     - title: 陈述性记忆
       children:
         - title: 自我记忆
