@@ -33,14 +33,14 @@
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
 
-[submodule "docs/intention"]
-	path = docs/intention
+[submodule "data/intention"]
+	path = data/intention
 	url = https://github.com/quanttide/quanttide-intention-of-business-entity.git
 	branch = main
 
 # ── 静态资源 ──
-[submodule "docs/brochure"]
-	path = docs/brochure
+[submodule "data/brochure"]
+	path = data/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
 [submodule "docs/essay"]
 	path = docs/essay
@@ -63,8 +63,8 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
-[submodule "docs/history"]
-	path = docs/history
+[submodule "data/history"]
+	path = data/history
 	url = https://github.com/quanttide/quanttide-history-of-business-entity.git
 [submodule "data/journal"]
 	path = data/journal

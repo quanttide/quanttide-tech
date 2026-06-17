@@ -33,9 +33,18 @@ project:
         - title: 事件记忆
   exclude:
     - archive/**
-    - brochure/**
     - bylaw/**
     - context/**
+    - data/archive/**
+    - data/brochure/**
+    - data/history/**
+    - data/insight/**
+    - data/intention/**
+    - data/journal/**
+    - data/library/**
+    - data/profile/**
+    - data/report/**
+    - data/roadmap/**
     - essay/**
     - gallery/**
     - handbook/**
@@ -44,8 +53,6 @@ project:
     - report/**
     - roadmap/**
     - specification/**
-    - story/**
     - tutorial/**
-    - intention/**
 site:
   template: book-theme
