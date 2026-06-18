@@ -90,3 +90,6 @@
 [submodule "data/library"]
 	path = data/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+[submodule "apps/qtcloud-auth"]
+	path = apps/qtcloud-auth
+	url = https://github.com/quanttide/qtcloud-auth.git
