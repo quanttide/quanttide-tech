@@ -93,6 +93,3 @@
 [submodule "apps/qtrecurit"]
 	path = apps/qtrecurit
 	url = https://github.com/quanttide/qtrecurit.git
-[submodule "packages/quanttide-ghtorrent-toolkit"]
-	path = packages/quanttide-ghtorrent-toolkit
-	url = https://github.com/quanttide/quanttide-ghtorrent-toolkit.git
