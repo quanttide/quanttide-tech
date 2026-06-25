@@ -45,6 +45,7 @@ project:
             - title: 图书馆
               url: https://quanttide.github.io/quanttide-library-of-business-entity/
         - title: 事件记忆
+          children: []
   exclude:
     - archive/**
     - bylaw/**
@@ -70,3 +71,5 @@ project:
     - tutorial/**
 site:
   template: book-theme
+  options:
+    favicon: favicon.svg
