@@ -1,5 +1,6 @@
 # 量潮科技工作手册系统 — 子模块配置
 # 按记忆模型组织
+# 所有子模块跟随各自仓库的 main 分支
 
 # ── 程序型记忆 ──
 
@@ -20,18 +21,22 @@
 [submodule "docs/handbook"]
 	path = docs/handbook
 	url = https://github.com/quanttide/quanttide-handbook-of-business-entity.git
+	branch = main
 
 [submodule "docs/gallery"]
 	path = docs/gallery
 	url = https://github.com/quanttide/quanttide-gallery-of-business-entity.git
+	branch = main
 
 [submodule "apps/qtadmin"]
 	path = apps/qtadmin
 	url = https://github.com/quanttide/qtadmin.git
+	branch = main
 
 [submodule "docs/tutorial"]
 	path = docs/tutorial
 	url = https://github.com/quanttide/quanttide-tutorial-of-business-entity.git
+	branch = main
 
 [submodule "data/intention"]
 	path = data/intention
@@ -42,54 +47,72 @@
 [submodule "data/brochure"]
 	path = data/brochure
 	url = https://github.com/quanttide/quanttide-brochure-of-business-entity.git
+	branch = main
 [submodule "docs/essay"]
 	path = docs/essay
 	url = https://github.com/quanttide/quanttide-essay-of-business-entity.git
+	branch = main
 [submodule "apps/qtdata"]
 	path = apps/qtdata
 	url = https://github.com/quanttide/qtdata.git
+	branch = main
 [submodule "apps/qtclass"]
 	path = apps/qtclass
 	url = https://github.com/quanttide/qtclass.git
+	branch = main
 [submodule "apps/qtweb"]
 	path = apps/qtweb
 	url = https://github.com/quanttide/qtweb.git
+	branch = main
 [submodule "apps/qtcloud"]
 	path = apps/qtcloud
 	url = https://github.com/quanttide/qtcloud.git
+	branch = main
 [submodule "apps/qtconsult"]
 	path = apps/qtconsult
 	url = https://github.com/quanttide/qtconsult.git
+	branch = main
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
+	branch = main
 [submodule "data/history"]
 	path = data/history
 	url = https://github.com/quanttide/quanttide-history-of-business-entity.git
+	branch = main
 [submodule "data/journal"]
 	path = data/journal
 	url = https://github.com/quanttide/quanttide-journal-of-business-entity.git
+	branch = main
 [submodule "data/roadmap"]
 	path = data/roadmap
 	url = https://github.com/quanttide/quanttide-roadmap-of-business-entity.git
+	branch = main
 [submodule "data/profile"]
 	path = data/profile
 	url = https://github.com/quanttide/quanttide-profile-of-business-entity.git
+	branch = main
 [submodule "data/insight"]
 	path = data/insight
 	url = https://github.com/quanttide/quanttide-insight-of-business-entity.git
+	branch = main
 [submodule "data/archive"]
 	path = data/archive
 	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
+	branch = main
 [submodule "data/report"]
 	path = data/report
 	url = https://github.com/quanttide/quanttide-report-of-business-entity.git
+	branch = main
 [submodule "data/context"]
 	path = data/context
 	url = https://github.com/quanttide/quanttide-context-of-business-entity.git
+	branch = main
 [submodule "data/library"]
 	path = data/library
 	url = https://github.com/quanttide/quanttide-library-of-business-entity.git
+	branch = main
 [submodule "apps/qtrecurit"]
 	path = apps/qtrecurit
 	url = https://github.com/quanttide/qtrecurit.git
+	branch = main
