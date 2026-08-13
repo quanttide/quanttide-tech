@@ -3,29 +3,34 @@
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
 
-## [0.2.0-alpha.1] - 2026-08-11
+## [0.8.0-alpha.1] - 2026-08-11
 
-**Added**
+### 新增
+
 - 新增 qtconsult 简介文档（what.md）及其目录引用。
 - 新增氛围编程实践课时 1 任务书与附加题。
 - 新增 qtcloud-code 意图，用于 Vibe Coding 治理。
 - 新增 qtrecurit 生产代码交叉评审实验，以及 qtdata 原型 v1-v4（含进度条仪表盘）。
 
-**Changed**
+### 变更
+
 - 同步更新多个子模块（qtadmin、qtclass、qtcloud、qtdata、qtrecurit、roadmap、insight、intention、journal、brochure、tutorial、handbook、bylaw、examples 等）至最新版本，并统一切换为跟随 main 分支。
 - 重构 qtadmin（lib 化、接入 connect chat、添加 qtrecurit 示例）与 qtclass（widgets 按粒度分组重构、宣传册合并为单页）。
 - 完成 qtdata studio 重写与 qtrecurit Flutter 初始化，新增 Studio 路线图及产品化意图。
 - 调整战略报告、咨询文档、brochure 等内容的组织与格式，统一为列表风格。
 
-**Fixed**
+### 修复
+
 - 修复测试警告与测试清理相关问题。
 - 修复文档中的空格、路径、标题、编号等细节问题。
 
-**Removed**
+### 移除
+
 - 移除 qtadmin 中废弃的 project、share 及业务域命令。
 - 移除 brochure 中的 services、training、qtdata 定价与案例行等内容。
 - 移除 bylaw 中的 blueprint、data contract 章节及 roadmap changelog 等冗余文档。
 - 清理构建产物（target/、lib/）并迁移/整理相关目录。
+
 ## [0.7.1] - 2026-06-17
 
 ### 变更
