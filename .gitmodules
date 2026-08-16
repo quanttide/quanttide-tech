@@ -116,3 +116,6 @@
 	path = apps/qtrecurit
 	url = https://github.com/quanttide/qtrecurit.git
 	branch = main
+[submodule "apps/qtaccount"]
+	path = apps/qtaccount
+	url = git@github.com:quanttide/qtaccount.git
