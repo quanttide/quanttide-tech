@@ -123,3 +123,19 @@
 	path = apps/qtcrowd
 	url = https://github.com/quanttide/qtcrowd.git
 	branch = main
+[submodule "apps/qtopen"]
+	path = apps/qtopen
+	url = https://github.com/quanttide/qtopen.git
+	branch = main
+[submodule "apps/qtproduct"]
+	path = apps/qtproduct
+	url = https://github.com/quanttide/qtproduct.git
+	branch = main
+[submodule "apps/qtbusiness"]
+	path = apps/qtbusiness
+	url = https://github.com/quanttide/qtbusiness.git
+	branch = main
+[submodule "apps/qtacademics"]
+	path = apps/qtacademics
+	url = https://github.com/quanttide/qtacademics.git
+	branch = main
