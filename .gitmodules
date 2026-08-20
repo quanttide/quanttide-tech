@@ -119,3 +119,7 @@
 [submodule "apps/qtaccount"]
 	path = apps/qtaccount
 	url = git@github.com:quanttide/qtaccount.git
+[submodule "apps/qtcrowd"]
+	path = apps/qtcrowd
+	url = https://github.com/quanttide/qtcrowd.git
+	branch = main
