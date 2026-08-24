@@ -68,10 +68,6 @@
 	path = apps/qtcloud
 	url = https://github.com/quanttide/qtcloud.git
 	branch = main
-[submodule "apps/qtconsult"]
-	path = apps/qtconsult
-	url = https://github.com/quanttide/qtconsult.git
-	branch = main
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
