@@ -116,3 +116,6 @@
 	path = apps/qtcrowd
 	url = https://github.com/quanttide/qtcrowd.git
 	branch = main
+[submodule "apps/qtmedia"]
+	path = apps/qtmedia
+	url = https://github.com/quanttide/qtmedia.git
