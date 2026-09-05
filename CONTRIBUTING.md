@@ -56,41 +56,6 @@ git commit -m "chore: update gallery submodule"
 git push
 ```
 
----
-
-## .quanttide 配置维护
-
-`.quanttide/` 目录是项目的契约事实源。
-
-### 契约文件
-
-| 文件 | 用途 |
-|------|------|
-| `.quanttide/asset/contract.yaml` | 数字资产契约 |
-| `.quanttide/docs/contract.yaml` | 文档工程契约 |
-
-### 添加新契约
-
-1. 在 `.quanttide/` 下创建对应分类目录
-2. 创建 `contract.yaml`，包含契约说明
-3. 更新 `.quanttide/README.md` 添加契约索引
-4. 提交并推送
-
-### 契约格式
-
-```yaml
-# 契约名称
-# 模块定位：简述契约用途
-
-# 资产定义
-assets:
-  <asset-name>:
-    title: 资产标题
-    type: 资产类型
-    path: 资产路径
-    description: 资产描述
-```
-
 ## 工作流程
 
 1. 创建分支：基于 main 创建功能分支

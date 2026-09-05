@@ -10,14 +10,6 @@
 | 文档格式 | `.agents/skills/docs-format/SKILL.md` | 操作 Markdown 文档时 |
 | 子模块操作 | `.agents/skills/devops-submodule/SKILL.md` | 操作 Git 子模块（更新、提交子模块）时 |
 
-## 契约文件
-
-| 文件 | 用途 |
-|------|------|
-| `.quanttide/asset/contract.yaml` | 数字资产契约 |
-| `.quanttide/docs/contract.yaml` | 文档工程契约 |
-
-AI Agent 进入仓库后，先读取 `.quanttide/` 目录获取上下文。
 
 ## 产品研发方法论
 
