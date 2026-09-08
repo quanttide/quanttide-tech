@@ -47,10 +47,20 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 |------|------|
 | `AGENTS.md` | AI Agent 工作指南（本文档） |
 | `CONTRIBUTING.md` | 贡献指南和 SKILL 维护 |
-| `README.md` | 项目说明 |
+| `README.md` | 项目说明与子模块清单 |
 | `ROADMAP.md` | 产品路线图 |
 | `CHANGELOG.md` | 版本变更记录 |
 | `index.md` | MyST 站点首页导航门户，按角色（业务/职能）组织链接。修改时同步新增/删除的子模块或文件 |
+
+## 仓库形态
+
+主仓库只挂当前活跃开发的产品与知识资产，共 23 个子模块（apps 5、data 11、docs 6、examples 1）。产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合；取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护，本地目录已清空。
+
+子模块变更约定：
+
+- 新增挂载需同步更新 `.gitmodules` 与 `README.md` 子模块表
+- 取消挂载：`git submodule deinit` + `git rm` + 清理 `.git/modules`，并同步 README
+- 主仓库指针只记录当前验证过的子模块状态，同步提交是常规操作
 
 ## qtdata 差距分析
 
