@@ -54,7 +54,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 
 ## 仓库形态
 
-主仓库只挂当前活跃开发的产品与知识资产，共 23 个子模块（apps 5、data 11、docs 6、examples 1）。产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合；取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护，本地目录已清空。
+主仓库只挂当前活跃开发的产品与知识资产，共 24 个子模块（apps 5、data 11、docs 6、examples 1、packages 1）。产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合；取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护，本地目录已清空。
 
 子模块变更约定：
 

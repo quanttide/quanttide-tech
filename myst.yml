@@ -64,6 +64,7 @@ project:
     - gallery/**
     - handbook/**
     - journal/**
+    - packages/**
     - profile/**
     - report/**
     - roadmap/**

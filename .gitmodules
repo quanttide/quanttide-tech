@@ -67,3 +67,6 @@
 [submodule "examples/default"]
 	path = examples/default
 	url = https://github.com/quanttide/quanttide-laboratory-of-business-entity.git
+[submodule "packages/quanttide-tech-toolkit"]
+	path = packages/quanttide-tech-toolkit
+	url = https://github.com/quanttide/quanttide-tech-toolkit.git
