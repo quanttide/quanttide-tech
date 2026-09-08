@@ -11,11 +11,14 @@
 | qtadmin | `apps/qtadmin/` | 量潮管理后台——治理思想的平台化载体 |
 | qtclass | `apps/qtclass/` | 量潮课堂——学习平台 |
 | qtcloud | `apps/qtcloud/` | 量潮云——云服务与 DevOps |
-| qtcrowd | `apps/qtcrowd/` | 量潮众包——渠道与代理众包 |
 | qtdata | `apps/qtdata/` | 量潮数据——数据服务 |
-| qtmedia | `apps/qtmedia/` | 量潮媒体中心 |
-| qtrecurit | `apps/qtrecurit/` | 量潮招聘——招聘与评估平台 |
 | qtweb | `apps/qtweb/` | 量潮官网 |
+
+以下产品仓库已取消子模块挂载，独立维护：
+
+- 量潮媒体中心 qtmedia：`https://github.com/quanttide/qtmedia`
+- 量潮众包 qtcrowd：`https://github.com/quanttide/qtcrowd`
+- 量潮招聘 qtrecurit：`https://github.com/quanttide/qtrecurit`
 
 ### 档案库（data）
 
