@@ -86,6 +86,12 @@ git push
 1. 将新子模块路径加入 `docs/myst.yml` 的 `project.exclude`
 2. 在 `docs/index.md` 添加对应链接
 
+## 子模块维护
+
+- 主仓库指针只记录当前验证过的子模块状态，同步提交是常规操作：子模块内提交推送后，回主仓库 `git add <子模块路径>` 并以 `chore: update <name> submodule` 提交
+- 新增挂载：更新 `.gitmodules` 与 `README.md` 子模块表，并按上文「新增子模块时」同步 MyST 配置与门户链接
+- 取消挂载：`git submodule deinit` + `git rm` + 清理 `.git/modules`，并同步 README
+
 ## 发布规范
 
 ### 子模块版本标注

@@ -1,76 +1,28 @@
 # AGENTS.md
 
-## SKILL 快速索引
+AI Agent 工作规则。项目介绍见 [README.md](./README.md)，仓库快照见 [STATUS.md](./STATUS.md)，维护流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
-| 场景 | SKILL 位置 | 触发时机 |
-|------|-----------|----------|
-| 提交代码 | `.agents/skills/devops-commit/SKILL.md` | 用户请求提交代码时（含子模块提交） |
-| 发布版本 | `.agents/skills/devops-release/SKILL.md` | 用户请求发布新版本、打标签时 |
-| 流程审查 | `.agents/skills/devops-review/SKILL.md` | 发布前审查、代码审查、文档审查时 |
-| 文档格式 | `.agents/skills/docs-format/SKILL.md` | 操作 Markdown 文档时 |
-| 子模块操作 | `.agents/skills/devops-submodule/SKILL.md` | 操作 Git 子模块（更新、提交子模块）时 |
+Agent 技能存放在 `.agents/skills/`，由 Agent 自动发现与按需加载；维护规范见 CONTRIBUTING.md。
 
+## 内容流向
 
-## 产品研发方法论
+- **内容库单向流动**：journal（实录）→ insight（洞察提炼）→ essay（成品叙事），各层独立成立；essay 不二次沉淀到 insight
+- journal 只做实录；提炼共识进 insight，演化叙事进 history，「要什么、为什么」进 intention
+- 机制细节进 insight，实现路径进 roadmap
 
-本仓库使用**数据驱动的产品研发**方法，核心为档案数据闭环：
+## 档案数据闭环
 
-```
-工作档案 → 数据建模 → 半结构化契约 → 各端独立开发 → 新数据回流档案
-```
+本仓库采用数据驱动的产品研发：工作档案 → 数据建模 → 半结构化契约 → 各端独立开发 → 新数据回流档案。
 
-方法定义在 `docs/handbook/qtcloud/product.md`（意图 → 流程 → 验收 三段论）。
+1. **工作档案是单一事实源**——档案库是业务数据和知识的权威来源
+2. **半结构化数据作为契约**——JSON/YAML 格式的资产定义是各端开发的接口契约
+3. **增量回写**——开发产生的结构化新数据回写档案库，形成数据循环
 
-### 关键含义
-
-1. **工作档案是单一事实源** — `data/profile`、`docs/handbook`、`docs/tutorial` 等档案库是业务数据和知识的权威来源
-2. **半结构化数据作为契约** — JSON/YAML 格式的资产定义（如 `profile/asset/category.json`）作为 CLI、Studio、Site 各端开发的接口契约
-3. **增量回写** — 开发过程中产生的新数据（如新资产定义、新分类）回写到档案库，形成数据循环
-  
-### Agent 工作提示
+Agent 工作提示：
 
 - 开发新功能前，先查阅档案库中是否存在相关数据或定义
-- 发现可结构化的数据片段时，优先考虑产出 JSON/YAML 契约而非直接编码硬逻辑
-- 开发后产生的结构化新数据，应回写到对应档案板块
-
-## 内容库分工
-
-```
-data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成品叙事）
-```
-
-单向流动，各层独立成立。**essay 不二次沉淀到 insight**——文章是洞察的成品形态，写完即终点，不再回灌。
-
-## 特殊文件
-
-| 文件 | 用途 |
-|------|------|
-| `AGENTS.md` | AI Agent 工作指南（本文档） |
-| `CONTRIBUTING.md` | 贡献指南和 SKILL 维护 |
-| `README.md` | 项目说明与子模块清单 |
-| `ROADMAP.md` | 产品路线图 |
-| `CHANGELOG.md` | 版本变更记录 |
-| `index.md` | MyST 站点首页导航门户，按角色（业务/职能）组织链接。修改时同步新增/删除的子模块或文件 |
-
-## 仓库形态
-
-主仓库只挂当前活跃开发的产品与知识资产，共 24 个子模块（apps 5、data 11、docs 6、examples 1、packages 1）。产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合；取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护，本地目录已清空。
-
-子模块变更约定：
-
-- 新增挂载需同步更新 `.gitmodules` 与 `README.md` 子模块表
-- 取消挂载：`git submodule deinit` + `git rm` + 清理 `.git/modules`，并同步 README
-- 主仓库指针只记录当前验证过的子模块状态，同步提交是常规操作
-
-## qtdata 差距分析
-
-基于三份来源的交叉对比：
-
-| 来源 | 角色 | 内容特征 |
-|------|------|----------|
-| `data/journal/qtdata/` | 业务日记 | 真实项目对话、CEO商业模式思考、战略讨论 |
-| `data/intention/qtdata/index.md` | 战略意图 | 体系化愿景——平台化、三方体系、信用定价权 |
-| `apps/qtdata/src/cli/` | 当前实现 | 本地CLI骨架，Markdown→结构化数据 |
+- 发现可结构化的数据片段时，优先产出 JSON/YAML 契约而非硬编码逻辑
+- 开发后产生的结构化新数据，回写到对应档案板块
 
 ## 元认知规则
 
