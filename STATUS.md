@@ -15,5 +15,5 @@
 | 来源 | 角色 | 内容特征 |
 |------|------|----------|
 | `data/journal/qtdata/` | 业务日记 | 真实项目对话、CEO商业模式思考、战略讨论 |
-| `data/intention/qtdata/index.md` | 战略意图 | 体系化愿景——平台化、三方体系、信用定价权 |
+| `data/intention/qtdata/` | 战略意图与经营现状 | 经营现状、体系化愿景——平台化、三方体系、信用定价权 |
 | `apps/qtdata/src/cli/` | 当前实现 | 本地CLI骨架，Markdown→结构化数据 |
