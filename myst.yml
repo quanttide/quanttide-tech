@@ -72,5 +72,3 @@ project:
     - tutorial/**
 site:
   template: book-theme
-  options:
-    favicon: favicon.svg
