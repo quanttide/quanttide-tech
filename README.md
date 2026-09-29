@@ -89,7 +89,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 
 | 子模块 | 路径 | 说明 |
 |--------|------|------|
-| default | `examples/default/` | 公司实验室——实验与探索 |
+| quanttide-tech-lab | `examples/quanttide-tech-lab/` | 公司实验室——实验与探索 |
 
 ## 初始化
 

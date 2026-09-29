@@ -2,6 +2,11 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [Unreleased]
+
+### 变更
+
+- examples/default → examples/quanttide-tech-lab（云端仓库名 + 本地路径同步重命名，仓库改名为 quanttide-tech-lab）
 
 ## [0.7.2] - 2026-08-13
 
