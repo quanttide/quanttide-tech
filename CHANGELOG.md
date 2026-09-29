@@ -2,6 +2,12 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.7.4] - 2026-09-29
+
+### 变更
+
+- 量潮招聘、量潮众包两章自 tutorial 迁入 handbook：handbook(104556a)、tutorial(abb7c03)
+
 ## [0.7.3] - 2026-09-29
 
 ### 新增
