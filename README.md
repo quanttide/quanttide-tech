@@ -43,6 +43,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | qtadmin | `apps/qtadmin/` | 量潮管理后台——治理思想的平台化载体 |
 | qtclass | `apps/qtclass/` | 量潮课堂——学习平台 |
 | qtcloud | `apps/qtcloud/` | 量潮云——云服务与 DevOps |
+| qtconsult | `apps/qtconsult/` | 量潮咨询——企业咨询业务 |
 | qtdata | `apps/qtdata/` | 量潮数据——数据服务 |
 | qtweb | `apps/qtweb/` | 量潮官网 |
 
