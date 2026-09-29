@@ -2,6 +2,12 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.7.5] - 2026-09-29
+
+### 变更
+
+- 更新子模块：intention(v0.3.1)、tutorial(v0.7.2)
+
 ## [0.7.4] - 2026-09-29
 
 ### 变更
