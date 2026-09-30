@@ -2,6 +2,18 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [0.7.6] - 2026-10-01
+
+### 新增
+
+- 新增 packages/quanttide-project-toolkit 子模块（量潮项目管理工具箱，2583096）
+
+### 变更
+
+- 更新子模块：qtconsult(3a073fd)、insight(df5cafd)、roadmap(1eac5f0)、profile(6084734)、intention(8d9420c)、archive(f3016c8)、tutorial(8faca2b)
+- qtconsult 应用重构：路由 go_router 化、main.dart 瘦身为纯入口、文档主题合并、CI Flutter 版本对齐
+- 量潮咨询内容重组：教程目的改写；业务档案自 profile 归档至 archive；洞察与路线图中 self 归入 project，Studio 文档自 roadmap 迁入 insight
+
 ## [0.7.5] - 2026-09-29
 
 ### 变更
