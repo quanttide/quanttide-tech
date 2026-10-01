@@ -2,6 +2,17 @@
 
 本文档记录项目所有重要变更。格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)。
 
+## [Unreleased]
+
+### 移除
+
+- packages/quanttide-project-toolkit 子模块退役：取消挂载、本地目录清空（README/STATUS 同步）
+
+### 变更
+
+- CONTRIBUTING.md 精简（134 → 38 行），AI 操作经验迁 AGENTS.md
+- AGENTS.md 记录语境仓库（data/context）是其他仓库的草稿箱
+
 ## [0.7.6] - 2026-10-01
 
 ### 新增

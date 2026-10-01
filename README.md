@@ -86,6 +86,10 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 |--------|------|------|
 | quanttide-tech-toolkit | `packages/quanttide-tech-toolkit/` | 量潮技术工具箱——跨业务、跨领域流程整合 |
 
+以下工具集仓库已退役，取消子模块挂载，本地目录已清空：
+
+- 项目管理工具箱 quanttide-project-toolkit：`https://github.com/quanttide/quanttide-project-toolkit`
+
 ### 实验室（examples）
 
 | 子模块 | 路径 | 说明 |

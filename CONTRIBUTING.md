@@ -7,7 +7,7 @@
 主仓库指针只记录当前验证过的子模块状态。内容改完后按「先子模块、后主仓库」的顺序提交推送。
 
 - **指针提交**：子模块内提交推送后，回主仓库 `git add <子模块路径>`，以 `chore: update <name> submodule` 提交
-- **新增挂载**：更新 `.gitmodules` 与 `README.md` 子模块表，并把新路径加入 `docs/myst.yml` 的 `project.exclude`、在 `docs/index.md` 补链接
+- **新增挂载**：更新 `.gitmodules` 与 `README.md` 子模块表，并把新路径加入根目录 `myst.yml` 的 `project.exclude`、在 `index.md` 补链接
 - **取消挂载**：`git submodule deinit` + `git rm` + 清理 `.git/modules`，并同步 README
 
 操作命令见 [devops-submodule](./.agents/skills/devops-submodule/SKILL.md)。
@@ -15,7 +15,7 @@
 ## 文档门户
 
 - 部署地址：<https://quanttide.github.io/quanttide-tech/>
-- `docs/index.md` 是门户首页，按记忆模型分类列出子模块链接
+- `index.md` 是门户首页，按记忆模型分类列出子模块链接
 - 构建与部署流程见 [docs-deploy](./.agents/skills/docs-deploy/SKILL.md)
 
 ## 发布规范
