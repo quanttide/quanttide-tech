@@ -6,14 +6,8 @@
 
 ## 仓库形态
 
-主仓库只挂当前活跃开发的产品与知识资产，共 25 个子模块（apps 6、data 11、docs 6、examples 1、packages 1），明细见 [README.md](./README.md)。产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合；取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护；退役的工具集（quanttide-project-toolkit）已取消挂载、本地目录清空。
+主仓库只挂当前活跃开发的产品与知识资产，共 25 个子模块（apps 6、data 11、docs 6、examples 1、packages 1），明细见 [README.md](./README.md)。
 
-## qtdata 差距分析
-
-基于三份来源的交叉对比：
-
-| 来源 | 角色 | 内容特征 |
-|------|------|----------|
-| `data/journal/qtdata/` | 业务日记 | 真实项目对话、CEO商业模式思考、战略讨论 |
-| `data/intention/qtdata/` | 战略意图与经营现状 | 经营现状、体系化愿景——平台化、三方体系、信用定价权 |
-| `apps/qtdata/src/cli/` | 当前实现 | 本地CLI骨架，Markdown→结构化数据 |
+- 产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合
+- 取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护
+- 退役的工具集（quanttide-project-toolkit）已取消挂载、本地目录清空
