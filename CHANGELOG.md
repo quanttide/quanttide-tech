@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 更新子模块：brochure(8c890a2)，qtdata 宣传册新增 how.md（制衣厂数据清洗）
 - CONTRIBUTING.md 精简（134 → 38 行），AI 操作经验迁 AGENTS.md
 - AGENTS.md 记录语境仓库（data/context）是其他仓库的草稿箱
 - STATUS.md 精简为纯快照（19 → 13 行），qtdata 差距分析移除——已由 data/insight 承载
