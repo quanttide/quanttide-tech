@@ -59,10 +59,10 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 |--------|------|------|
 | archive | `data/archive/` | 工作归档——历史数据与文档归档 |
 | brochure | `data/brochure/` | 企业宣传册——面向客户与潜在客户的业务介绍 |
-| context | `data/context/` | 工作语境 |
+| context | `data/context/` | 上下文 |
 | history | `data/history/` | 品牌故事 |
 | insight | `data/insight/` | 工作洞察——实践提炼的洞察 |
-| intention | `data/intention/` | 工作意图——「我们要什么、为什么」 |
+| intention | `data/intention/` | 愿景——「我们要什么、为什么」 |
 | journal | `data/journal/` | 工作日志——业务实录 |
 | library | `data/library/` | 图书馆——公开资料参考源 |
 | profile | `data/profile/` | 工作简介——业务数据与资产定义档案 |
@@ -74,7 +74,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | 子模块 | 路径 | 说明 |
 |--------|------|------|
 | bylaw | `docs/bylaw/` | 工作章程——治理规范性文件 |
-| essay | `docs/essay/` | 工作札记与工作论文——成品叙事 |
+| essay | `docs/essay/` | 论文——成品叙事 |
 | gallery | `docs/gallery/` | 工作案例 |
 | handbook | `docs/handbook/` | 工作手册——企业经营各方面文档 |
 | specification | `docs/specification/` | 工程标准——流程、文档格式、工具规范 |
