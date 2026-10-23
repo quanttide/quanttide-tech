@@ -19,7 +19,7 @@
 
 ### 新增
 
-- 新增 packages/quanttide-project-toolkit 子模块（量潮项目管理工具箱，2583096）
+- 新增 packages/quanttide-project-toolkit 子模块（量潮项目管理标准库，2583096）
 
 ### 变更
 

@@ -10,4 +10,4 @@
 
 - 产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合
 - 取消挂载的产品（qtmedia、qtcrowd、qtrecurit）在 GitHub 独立维护
-- 退役的工具集（quanttide-project-toolkit）已取消挂载、本地目录清空
+- 退役的标准库（quanttide-project-toolkit）已取消挂载、本地目录清空
