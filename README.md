@@ -80,15 +80,15 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | specification | `docs/specification/` | 工程标准——流程、文档格式、工具规范 |
 | tutorial | `docs/tutorial/` | 工作教程 |
 
-### 工具集（packages）
+### 标准库（packages）
 
 | 子模块 | 路径 | 说明 |
 |--------|------|------|
-| quanttide-tech-toolkit | `packages/quanttide-tech-toolkit/` | 量潮技术工具箱——跨业务、跨领域流程整合 |
+| quanttide-tech-toolkit | `packages/quanttide-tech-toolkit/` | 量潮技术标准库——跨业务、跨领域流程整合 |
 
-以下工具集仓库已退役，取消子模块挂载，本地目录已清空：
+以下标准库仓库已退役，取消子模块挂载，本地目录已清空：
 
-- 项目管理工具箱 quanttide-project-toolkit：`https://github.com/quanttide/quanttide-project-toolkit`
+- 项目管理标准库 quanttide-project-toolkit：`https://github.com/quanttide/quanttide-project-toolkit`
 
 ### 实验室（examples）
 
