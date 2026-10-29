@@ -377,3 +377,4 @@
 - 将学习日志详情移至 meta/bylaw/learn_journal.md
 - 重构日志规范到 meta 文件夹
 - 将子模块移至 docs 目录- qtrecurit 手册与随笔迁出至创新联盟（docs/handbook、docs/essay 两子模块更新）
+- data/brochure 子模块更新：qtrecurit 招聘宣传三篇迁出至创新联盟
