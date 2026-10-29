@@ -380,3 +380,4 @@
 - data/brochure 子模块更新：qtrecurit 招聘宣传三篇迁出至创新联盟
 - data/insight、data/history 子模块更新：qtrecurit 洞察与历史文章迁出至创新联盟
 - data/archive/journal 子模块更新：qtrecurit 日志 20 篇迁出至创新联盟
+- data/archive 子模块更新：qtrecurit 归档平移至创新联盟
