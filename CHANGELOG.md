@@ -383,3 +383,4 @@
 - data/archive 子模块更新：qtrecurit 归档平移至创新联盟
 - data/roadmap、data/report、docs/bylaw 子模块更新：qtrecurit 招聘路线图、招聘报告（含生成技能）、招聘审计章程迁出至创新联盟
 - data/journal 子模块更新：qtclass 实训基地实录 35 篇迁出至实训基地日志仓
+- data/journal 子模块更新：移回 7 篇业务设计日志（归 default/）
