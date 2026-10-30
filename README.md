@@ -45,7 +45,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | qtcloud | `apps/qtcloud/` | 量潮云——云服务与 DevOps |
 | qtconsult | `apps/qtconsult/` | 量潮咨询——企业咨询业务 |
 | qtdata | `apps/qtdata/` | 量潮数据——数据服务 |
-| qtweb | `apps/qtweb/` | 量潮官网 |
+| qttech | `apps/qttech/` | 量潮科技前端（官网，代码按 `src/<scope>` 组织，当前 scope：site） |
 
 以下产品仓库已取消子模块挂载，独立维护：
 

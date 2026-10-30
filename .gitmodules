@@ -10,9 +10,9 @@
 [submodule "apps/qtdata"]
 	path = apps/qtdata
 	url = https://github.com/quanttide/qtdata.git
-[submodule "apps/qtweb"]
-	path = apps/qtweb
-	url = https://github.com/quanttide/qtweb.git
+[submodule "apps/qttech"]
+	path = apps/qttech
+	url = https://github.com/quanttide/qttech.git
 [submodule "data/archive"]
 	path = data/archive
 	url = https://github.com/quanttide/quanttide-archive-of-business-entity.git
