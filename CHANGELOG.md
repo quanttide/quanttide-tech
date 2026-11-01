@@ -10,7 +10,7 @@
 
 ### 变更
 
-- qtclass 商业化归置：意图库新增 qtclass/business.md（三端付费 G/B/C、三条产品线、禁止清单），roadmap 仓产品路线图对齐三端与仓内自持，app 根 ROADMAP 标明只管工程
+- qtclass 商业化归置：宣传册新增 qtclass/business.md（G/B/C 三种合作方式对外口径），learn 两篇历史页迁图书馆存档；意图库 business.md 收薄只留内部判断；history 同名同实体（演化故事）；roadmap 产品路线图对齐三端与仓内自持；app 根 ROADMAP 标明只管工程
 - 日志归位 30 篇：context 草稿箱清空仅留当日（qtcloud 10、qtconsult 6、qtdata 2、default 3 归 journal；qtadmin 2 归 archive；qtclass 7 归实训基地日志仓）
 - 更新子模块：qtcloud(b1e27b6, cli/v0.1.0-alpha.1)，首发 CLI 并发布 crates.io——内置 skills 命令（qtcloud-devops-release 随二进制分发）、退出码契约自 qtfounder 吸收、release-cli 发布链路
 - 更新子模块：brochure(8c890a2)，qtdata 宣传册新增 how.md（制衣厂数据清洗）
