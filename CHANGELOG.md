@@ -10,6 +10,7 @@
 
 ### 变更
 
+- studio 单用户化：砍全部学员交互与客户面（派发/批改/客户面/淘汰赛等七项），定位改教学设计工作台；核心判断=本体是 v0.1 互动编排引擎、节点载荷暂为文档非视频；创作空间保持优先——app 四个 ROADMAP 与 roadmap 仓三处同步，精简理由入册
 - 洞察仓新增 qtclass/studio.md（Studio 作为教学思路的载体，自语境仓库移交），索引挂入演进主题
 - qtclass lite v0.1.1：当前任务换小说发行与游戏两个工作室任务书（源 academy intention，与公众号同源），旧「任务书修订」下线
 - qtclass lite 发正式版 lite/v0.1.0：Web 形态学员任务端首切片上线 lite.class.quanttide.com（三页 + 静态契约 + 任务书 10 篇首迁）；基础设施照 site 惯例新建（OSS qtclass-lite + CDN 子域 + ZeroSSL 证书 + deploy-lite.yml）
