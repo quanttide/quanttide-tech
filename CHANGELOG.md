@@ -10,6 +10,7 @@
 
 ### 变更
 
+- qtclass site 发正式版 site/v0.1.2：课程页回归单一列表、首页与 /learn 下线、/prices 上线（三档服务模式卡）；验收流程入 CONTRIBUTING，实习生执行清单入 TODO
 - qtclass 路线图双仓对齐：roadmap 仓产品路线图按 scope 分五篇（site/studio/lite/provider/cli），app 六个 ROADMAP 精简为下一步待办（179 → 78 行），决策史归 git/CHANGELOG 与意图库、历史库
 - qtclass 商业化归置：宣传册新增 qtclass/business.md（G/B/C 三种合作方式对外口径），learn 两篇历史页迁图书馆存档；意图库 business.md 收薄只留内部判断；history 同名同实体（演化故事）；roadmap 产品路线图对齐三端与仓内自持；app 根 ROADMAP 标明只管工程
 - 日志归位 30 篇：context 草稿箱清空仅留当日（qtcloud 10、qtconsult 6、qtdata 2、default 3 归 journal；qtadmin 2 归 archive；qtclass 7 归实训基地日志仓）
