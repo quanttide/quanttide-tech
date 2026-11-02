@@ -10,8 +10,7 @@
 
 ### 变更
 
-- course 域模型定型（用户裁决）：DecompositionNode 撤（revert）→ **Solution + SolutionStep** 落 toolkit——三件孪生（Assignment/Solution/SolutionStep 同形 id/title/content），SolutionStep + `after` 前置边组 DAG（一层不嵌套、单元自足，判断标准与注解进 content）；架构约定同步（`states/` 装 bloc 与状态，不设 bloc/）；17 测全绿；roadmap studio 篇、app studio ROADMAP、studio TODO 三处口径同步
-- Assignment 类落地 quanttide-tech-toolkit `packages/dart/lib/course/`：按 BLoC 架构分层（models 层先行，states/events/bloc 随工作流启用），三字段契约 + 测试双绿；studio TODO 改为引包接入，roadmap 落点同步
+- course 域模型定型（用户裁决终态）：**toolkit 暂不引入**——Assignment / Solution / SolutionStep 三件**独立实现于 studio `lib/models/`**，业务迭代稳定后固定回 `quanttide-tech-toolkit` 的 `dart/course`（toolkit 当轮落地已 revert 回裸骨架；中途树形 DecompositionNode 设计已撤）；三件孪生 id/title/content，SolutionStep + `after` 边组 DAG（一层不嵌套、单元自足，判断标准与注解进 content）；`states/` 装 bloc 与状态、不设 bloc/；flutter analyze 无告警、全量 81 测全绿；roadmap studio 篇、app ROADMAP、studio TODO 三处同步
 - studio 更名：Brief → **Assignment（大作业）**，studio 定位明确为「大作业的解体思路」；数据契约三字段由用户定：`id`(uuid) / `title` / `content`（content 默认 Markdown 长文本，未来拓展视频等格式，四问降为正文内素材）——活文档三份与代码落点（assignment.dart、assets/assignments/）随口径，洞察归档保留原词
 - studio 单用户化：砍全部学员交互与客户面（派发/批改/客户面/淘汰赛等七项），定位改教学设计工作台；核心判断=本体是 v0.1 互动编排引擎、节点载荷暂为文档非视频；创作空间保持优先——app 四个 ROADMAP 与 roadmap 仓三处同步，精简理由入册
 - 洞察仓新增 qtclass/studio.md（Studio 作为教学思路的载体，自语境仓库移交），索引挂入演进主题
