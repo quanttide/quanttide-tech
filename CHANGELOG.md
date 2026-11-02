@@ -10,6 +10,7 @@
 
 ### 变更
 
+- qtclass lite v0.1.1：当前任务换小说发行与游戏两个工作室任务书（源 academy intention，与公众号同源），旧「任务书修订」下线
 - qtclass lite 发正式版 lite/v0.1.0：Web 形态学员任务端首切片上线 lite.class.quanttide.com（三页 + 静态契约 + 任务书 10 篇首迁）；基础设施照 site 惯例新建（OSS qtclass-lite + CDN 子域 + ZeroSSL 证书 + deploy-lite.yml）
 - qtclass site 发正式版 site/v0.1.2：课程页回归单一列表、首页与 /learn 下线、/prices 上线（三档服务模式卡）；验收流程入 CONTRIBUTING，实习生执行清单入 TODO
 - qtclass 路线图双仓对齐：roadmap 仓产品路线图按 scope 分五篇（site/studio/lite/provider/cli），app 六个 ROADMAP 精简为下一步待办（179 → 78 行），决策史归 git/CHANGELOG 与意图库、历史库
