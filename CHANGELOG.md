@@ -10,6 +10,7 @@
 
 ### 变更
 
+- studio 更名：Brief → **Assignment（大作业）**，studio 定位明确为「大作业的解体思路」——活文档三份（roadmap studio 篇、app studio ROADMAP、TODO）与代码落点（assignment.dart）随名，洞察归档保留原词
 - studio 单用户化：砍全部学员交互与客户面（派发/批改/客户面/淘汰赛等七项），定位改教学设计工作台；核心判断=本体是 v0.1 互动编排引擎、节点载荷暂为文档非视频；创作空间保持优先——app 四个 ROADMAP 与 roadmap 仓三处同步，精简理由入册
 - 洞察仓新增 qtclass/studio.md（Studio 作为教学思路的载体，自语境仓库移交），索引挂入演进主题
 - qtclass lite v0.1.1：当前任务换小说发行与游戏两个工作室任务书（源 academy intention，与公众号同源），旧「任务书修订」下线
