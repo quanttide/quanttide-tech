@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 更新子模块：roadmap(99f2608)，qtclass 新增账号与支付接入设计 auth-pay（qtcloud-auth JWT 校验、qtcloud-pay 钱包与订单代理、Phase 0-5 落地），studio 落点口径终态同轮入册
+
 - course 域模型定型（用户裁决终态）：**toolkit 暂不引入**——Assignment / Solution / SolutionStep 三件**独立实现于 studio `lib/models/`**，业务迭代稳定后固定回 `quanttide-tech-toolkit` 的 `dart/course`（toolkit 当轮落地已 revert 回裸骨架；中途树形 DecompositionNode 设计已撤）；三件孪生 id/title/content，SolutionStep + `after` 边组 DAG（一层不嵌套、单元自足，判断标准与注解进 content）；`states/` 装 bloc 与状态、不设 bloc/；flutter analyze 无告警、全量 81 测全绿；roadmap studio 篇、app ROADMAP、studio TODO 三处同步
 - studio 更名：Brief → **Assignment（大作业）**，studio 定位明确为「大作业的解体思路」；数据契约三字段由用户定：`id`(uuid) / `title` / `content`（content 默认 Markdown 长文本，未来拓展视频等格式，四问降为正文内素材）——活文档三份与代码落点随口径（实例存储后改本机 XDG，不进仓不进 assets），洞察归档保留原词
 - studio 单用户化：砍全部学员交互与客户面（派发/批改/客户面/淘汰赛等七项），定位改教学设计工作台；核心判断=本体是 v0.1 互动编排引擎、节点载荷暂为文档非视频；创作空间保持优先——app 四个 ROADMAP 与 roadmap 仓三处同步，精简理由入册
