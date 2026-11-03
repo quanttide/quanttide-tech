@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 加深七篇原文挂入门槛/收敛认知（2026-11-02）：insight 四篇（business-lines-and-clouds、open-source-as-moat、intent-supply、free-traffic-leverage）+ intention 三篇（from-project-to-product、from-heart-to-designer、intro/index），均带日期补节并互链新篇
 - 更新子模块：roadmap(99f2608)，qtclass 新增账号与支付接入设计 auth-pay（qtcloud-auth JWT 校验、qtcloud-pay 钱包与订单代理、Phase 0-5 落地），studio 落点口径终态同轮入册
 
 - course 域模型定型（用户裁决终态）：**toolkit 暂不引入**——Assignment / Solution / SolutionStep 三件**独立实现于 studio `lib/models/`**，业务迭代稳定后固定回 `quanttide-tech-toolkit` 的 `dart/course`（toolkit 当轮落地已 revert 回裸骨架；中途树形 DecompositionNode 设计已撤）；三件孪生 id/title/content，SolutionStep + `after` 边组 DAG（一层不嵌套、单元自足，判断标准与注解进 content）；`states/` 装 bloc 与状态、不设 bloc/；flutter analyze 无告警、全量 81 测全绿；roadmap studio 篇、app ROADMAP、studio TODO 三处同步
