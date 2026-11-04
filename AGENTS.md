@@ -7,6 +7,9 @@
 根据用户指定准确维护对应仓库、文件夹和文件。
 默认使用语境仓库（data/context文件夹）的default文件夹。
 
+- **仓库分工**：qtcloud 围绕 execute / connect 等职能（执行、连接）；qtadmin 围绕 journal / profile 等范畴与资产做指标与验收展示（只读 `data/` 数据层）
+- **journal / profile 禁止移动**：住 `data/`（`data/journal/`、`data/profile/`、`data/context/<板块>/journal|profile/` 等），不移入任何 app 仓、不改 `data/` 内位置——长期规矩，以本条为准
+
 ## 语境仓库（data/context）
 
 语境仓库是**其他仓库的草稿箱**——内容先在这里起草，定稿后归入真正归属的仓库与分层。

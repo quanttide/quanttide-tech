@@ -12,6 +12,12 @@
 
 操作命令见 [devops-submodule](./.agents/skills/devops-submodule/SKILL.md)。
 
+## 仓库分工与资产归属
+
+- **qtcloud**：职能执行仓——围绕 execute / connect（发布流水线、数据连接、消息推送），价值在触发执行
+- **qtadmin**：监控面板——围绕 journal / profile 等范畴与资产做指标与验收展示，只读 `data/` 数据层
+- **journal / profile 禁止移动**：住 `data/`（`data/journal/`、`data/profile/`、`data/context/<板块>/journal|profile/`），不移入任何 app 仓
+
 ## 文档门户
 
 - 部署地址：<https://quanttide.github.io/quanttide-tech/>

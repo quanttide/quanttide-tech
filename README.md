@@ -38,11 +38,13 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 
 ### 产品应用（apps）
 
+apps 按职能分工：qtcloud 围绕 execute / connect 等职能（执行与连接，价值在触发），qtadmin 围绕 journal / profile 等范畴与资产做指标与验收展示（记录与状态，价值在积累）。范畴与资产住 `data/` 数据层，禁止移入任何 app。
+
 | 子模块 | 路径 | 说明 |
 |--------|------|------|
-| qtadmin | `apps/qtadmin/` | 量潮管理后台——治理思想的平台化载体 |
+| qtadmin | `apps/qtadmin/` | 对内监控面板——数据指标与验收状态，围绕 journal / profile 等资产只读展示 |
 | qtclass | `apps/qtclass/` | 量潮课堂——学习平台 |
-| qtcloud | `apps/qtcloud/` | 量潮云——云服务与 DevOps |
+| qtcloud | `apps/qtcloud/` | 量潮云——职能执行仓（execute / connect：发布流水线、数据连接与推送） |
 | qtconsult | `apps/qtconsult/` | 量潮咨询——企业咨询业务 |
 | qtdata | `apps/qtdata/` | 量潮数据——数据服务 |
 | qttech | `apps/qttech/` | 量潮科技前端（官网，代码按 `src/<scope>` 组织，当前 scope：site） |
