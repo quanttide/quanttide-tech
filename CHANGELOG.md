@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 仓库分工明文：qtcloud=职能执行仓（execute / connect），qtadmin=围绕 journal / profile 资产只读展示；**journal/profile 禁止移动**（住 `data/`，不入 app）——tech README/AGENTS/CONTRIBUTING 与 qtcloud、qtadmin 各自 README/AGENTS/CONTRIBUTING 同步；子模块指针 qtcloud(1cd16a6)、qtadmin(eee0c70)
 - 加深七篇原文挂入门槛/收敛认知（2026-11-02）：insight 四篇（business-lines-and-clouds、open-source-as-moat、intent-supply、free-traffic-leverage）+ intention 三篇（from-project-to-product、from-heart-to-designer、intro/index），均带日期补节并互链新篇
 - 更新子模块：roadmap(99f2608)，qtclass 新增账号与支付接入设计 auth-pay（qtcloud-auth JWT 校验、qtcloud-pay 钱包与订单代理、Phase 0-5 落地），studio 落点口径终态同轮入册
 
