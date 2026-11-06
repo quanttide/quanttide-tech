@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 更新子模块：qtadmin(v0.1.0-alpha.1)——CLI 四命令骨架首发（entity / domain / adapter / category，名词为主，叶子诚实标注数据源未接），版本起点与 ROADMAP 新结构线同步
 - journal/profile 禁移动措辞收窄（事实源不搬不入 app；语境仓库草稿定稿归位属正常流动）；qtadmin 板块两草稿归位：journal→`data/journal/default/2026-11-06.md`（按分流：管理后台不单独立目录）、platform/cli→`apps/qtadmin/docs/dev-guide/cli.md`；子模块指针 data/journal、data/context、qtadmin 更新
 - 仓库分工明文：qtcloud=职能执行仓（execute / connect），qtadmin=围绕 journal / profile 资产只读展示；**journal/profile 禁止移动**（住 `data/`，不入 app）——tech README/AGENTS/CONTRIBUTING 与 qtcloud、qtadmin 各自 README/AGENTS/CONTRIBUTING 同步；子模块指针 qtcloud(1cd16a6)、qtadmin(eee0c70)
 - 加深七篇原文挂入门槛/收敛认知（2026-11-02）：insight 四篇（business-lines-and-clouds、open-source-as-moat、intent-supply、free-traffic-leverage）+ intention 三篇（from-project-to-product、from-heart-to-designer、intro/index），均带日期补节并互链新篇
