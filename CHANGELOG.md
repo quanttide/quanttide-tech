@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 更新子模块：qtclass(lite/v0.1.3)——筛选由底部弹层改为两排常驻分段（需求/验收各一排，选项不藏）；同批纠正 lite 0.1.2 与 site 0.1.3 的 CHANGELOG 发布日期（实发 11-07）；tag 触发部署，线上复核 200 且 bundle 与本地构建同哈希
 - 更新子模块：qtclass(lite/v0.1.2、site/v0.1.3)——lite 页签外壳（理论 / 实践 / 我的 + AppBar，微信式）与两把尺筛选（任务书 `tags.requirement/acceptance` 全量标注 12/12，课程清单自 site 迁入理论页）；site 首页上线（课程特色取材宣传册）瘦身为首页 + 价格并加 lite / studio 连接引用；两仓 CHANGELOG 转正 + package.json 升版 + tag 触发部署，线上复核 200
 - 更新子模块：qtadmin(v0.1.0-alpha.1)——CLI 四命令骨架首发（entity / domain / adapter / category，名词为主，叶子诚实标注数据源未接），版本起点与 ROADMAP 新结构线同步
 - journal/profile 禁移动措辞收窄（事实源不搬不入 app；语境仓库草稿定稿归位属正常流动）；qtadmin 板块两草稿归位：journal→`data/journal/default/2026-11-06.md`（按分流：管理后台不单独立目录）、platform/cli→`apps/qtadmin/docs/dev-guide/cli.md`；子模块指针 data/journal、data/context、qtadmin 更新
