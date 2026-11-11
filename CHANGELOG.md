@@ -10,6 +10,8 @@
 
 ### 变更
 
+- 更新子模块：journal(a0ce841)，恢复 qtclass/ 日志 35 篇（撤销 10-29 迁出，default/ 7 篇归位，README/AGENTS 口径复原）
+
 - 更新子模块：roadmap(e264ddd)，qtclass 账号与支付接入设计 auth-pay 并入 provider 篇——落地 Phase 0-5 转待办勾选项，设计全文归数据面路线图
 - 更新子模块：roadmap(bc68b17)
 - 更新子模块：qtclass——ROADMAP 全系按 v0.1 目标重写（root + site/studio/lite/provider/cli）：静态探针纪律、服务端等待契约、双引擎分工与收口顺序对齐产品路线，qtclass 产品路线图重写——v0.1 固定一版数据模型（契约喂真场景、模板/实例第一刀、双引擎切分）、v1.0 商业化运营三条标志；正文按口径不引用具体文档
