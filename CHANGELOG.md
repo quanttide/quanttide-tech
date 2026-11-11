@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 更新子模块：journal(3b49184)，移除 fetch-chat-logs skill
 - 更新子模块：journal(a0ce841)，恢复 qtclass/ 日志 35 篇（撤销 10-29 迁出，default/ 7 篇归位，README/AGENTS 口径复原）
 
 - 更新子模块：roadmap(e264ddd)，qtclass 账号与支付接入设计 auth-pay 并入 provider 篇——落地 Phase 0-5 转待办勾选项，设计全文归数据面路线图
