@@ -10,6 +10,7 @@
 
 ### 变更
 
+- 更新子模块：gallery(v0.2.3)，qtadmin 首页取消全部引用改为概述；议事规则 `qtadmin/delib/rule.md` 移除，`myst.yml` toc 同步
 - 更新子模块：journal(3b49184)，移除 fetch-chat-logs skill
 - 更新子模块：journal(a0ce841)，恢复 qtclass/ 日志 35 篇（撤销 10-29 迁出，default/ 7 篇归位，README/AGENTS 口径复原）
 
