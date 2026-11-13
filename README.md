@@ -31,7 +31,7 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | `AGENTS.md` | AI Agent 工作规则 |
 | `CONTRIBUTING.md` | 贡献指南、维护流程与 SKILL 维护 |
 | `CHANGELOG.md` | 版本变更记录 |
-| `index.md` | MyST 站点首页导航门户，按角色（业务/职能）组织链接。修改时同步新增/删除的子模块或文件 |
+| `index.md` | MyST 站点首页——全书前言，按记忆模型给出全书读法 |
 
 ## 子模块
 

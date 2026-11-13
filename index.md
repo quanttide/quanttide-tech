@@ -1,39 +1,9 @@
-# 量潮科技第二大脑
+# 前言
 
-## 业务角色
+量潮科技第二大脑是量潮科技的组织记忆。它以书的形态组织：开源工作档案（data/）与知识库（docs/）是单一事实源，产品应用（apps/）承载业务与治理，实验室（examples/）承载探索。凡有据可查的内容都住进档案，正在发生的内容先落草稿，定稿后归位——这座仓库不收集印象，只收集可以核对的事实。
 
-### 量潮数据
+全书按记忆模型分为两卷。**程序性记忆**记「我们怎么做」：章程定边界，手册给方法，教程带人上手，工程标准与工作案例供 AI 检索，札记把实践沉淀成文。**陈述性记忆**记「我们是谁、要什么」：意图回答为何出发，宣传册与历史对外叙述，洞察是实践提炼的认知，档案是业务数据与资产的定义，图书馆收藏公开参考源。
 
-章程：
-- [客户支持章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/qtdata/support) — 售后响应机制与审计检查
+各层单向流动：实录（data/journal）流向洞察（data/insight），洞察流向文章（docs/essay）。文章是洞察的成品，写完即终点，不再回灌——这保证了每个事实只有一个权威出处。
 
-档案：
-- [量潮数据报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtdata/business/quotation) — 数据服务与科研咨询定价
-- [量潮课堂报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtclass/business/quotation) — 学生客户定价
-
-## 量潮课堂
-
-档案：
-- [量潮课堂报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtclass/business/quotation) — 学生客户定价
-
-## 量潮咨询
-
-档案：
-- [量潮咨询报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/business/quotation) — 企业客户定价
-
-
-## 职能角色
-
-### 商务拓展
-
-章程：
-- [量潮商务报价章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/business/quotation) — 报价规则与审批层级
-- [量潮商务谈判章程](https://quanttide.github.io/quanttide-bylaw-of-business-entity/business/negotiation) — 谈判策略与规则
-
-手册：
-- [量潮商务报价手册](https://quanttide.github.io/quanttide-handbook-of-business-entity/business/quotation) — 报价操作流程
-
-档案：
-- [量潮数据报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtdata/business/quotation) — 数据服务与科研咨询定价
-- [量潮课堂报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/qtclass/business/quotation) — 学生客户定价
-- [量潮咨询报价档案](https://quanttide.github.io/quanttide-profile-of-business-entity/business/quotation) — 企业客户定价
+从任意一章进入皆可：查口径去章程与手册，查事实去档案，找先例去案例与札记。仓库的分工与红线见 AGENTS.md，维护与流转流程见 CONTRIBUTING.md。
