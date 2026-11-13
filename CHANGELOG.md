@@ -8,6 +8,8 @@
 
 - 更新子模块：gallery(d01a10b)，qtadmin 产品范围新增 cli 板块——cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
 - 更新子模块：gallery(2b7c3c7)，qtadmin 产品范围 cli 板块补自建边界——外部工具 cli 能批量做的就用它，做不了的批量操作是自建系统的建设重点
+- 更新子模块：gallery(5418b98)，qtadmin 新增账号管理（密码本纪律、quanttide-secret）、记账（审批数据为记账依据）、平台经济（分成与分工、抽成即税收）三篇案例，入口页补财务与经济板块
+- 更新子模块：intention(58e66de)，qtclass 新增产品篇——AI 原生的产教融合众包生态定位、目标用户、三级火箭架构（site/lite/studio）、AI 原生创新点
 
 ## [0.7.7] - 2026-11-12
 
