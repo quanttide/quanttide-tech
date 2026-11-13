@@ -6,6 +6,7 @@
 
 ### 变更
 
+- 更新子模块：bylaw(706ed37)，商务章程三篇（business/）迁出至 quanttide-bylaw-of-business-development 的 `intro/`；本仓导航、关键词与目录树同步
 - 更新子模块：handbook(272575a)，商务手册五篇（qtdata/business/）迁出至 quanttide-handbook-of-business-development 的 `intro/`，移除章程对照信息；本仓导航与引用同步
 - 更新子模块：gallery(d01a10b)，qtadmin 产品范围新增 cli 板块——cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
 - 更新子模块：gallery(2b7c3c7)，qtadmin 产品范围 cli 板块补自建边界——外部工具 cli 能批量做的就用它，做不了的批量操作是自建系统的建设重点
