@@ -1,6 +1,6 @@
 # AGENTS.md
 
-项目介绍见 [README.md](./README.md)，仓库快照见 [STATUS.md](./STATUS.md)，维护流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+项目介绍见 [README.md](./README.md)，维护流程见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 
 ## 资产管理
 

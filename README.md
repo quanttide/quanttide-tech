@@ -29,12 +29,13 @@ data/journal（实录）→ data/insight（洞察提炼）→ docs/essay（成�
 | 文件 | 用途 |
 |------|------|
 | `AGENTS.md` | AI Agent 工作规则 |
-| `STATUS.md` | 仓库当前快照 |
 | `CONTRIBUTING.md` | 贡献指南、维护流程与 SKILL 维护 |
 | `CHANGELOG.md` | 版本变更记录 |
 | `index.md` | MyST 站点首页导航门户，按角色（业务/职能）组织链接。修改时同步新增/删除的子模块或文件 |
 
 ## 子模块
+
+主仓库只挂当前活跃开发的产品与知识资产；产品仓库独立开发与发布（各自走 CI 与 qtcloud-devops 发布流程），不依赖主仓库聚合。
 
 ### 产品应用（apps）
 
