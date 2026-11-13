@@ -18,6 +18,28 @@
 - **qtadmin**：监控面板——围绕 journal / profile 等范畴与资产做指标与验收展示，只读 `data/` 数据层
 - **journal / profile 禁止移动**：住 `data/`（`data/journal/`、`data/profile/`、`data/context/<板块>/journal|profile/`），不移入任何 app 仓
 
+## 记忆流转
+
+长期记忆只有两个流向：**草稿定稿归位**（context → 长期记忆仓库）与**失活归档**（长期记忆仓库 → archive）。两者都只迁移、不删除，也不违反上面的禁移动条款（禁的是搬进 app 仓，归位与归档是正常流动）。
+
+### context → 长期记忆仓库
+
+context 是各长期记忆仓库的草稿箱，轴向与归位方向相反（`context/{板块}/{分层}/` → `data/{分层}/{板块}/`），细则见 [data/context/README](./data/context/README.md)。
+
+1. **拉新**：`git submodule update --init --remote -- data/context`
+2. **归位**：定稿日志按板块平移进目标仓，原样不改写；context 侧只保留当日草稿
+   - 分流：管理后台（qtadmin）不单独立目录，日志按分流入 `journal/default/`；已归档业务线直移 `data/archive/{分层}/{板块}/`
+3. **提交推送**：目标仓与 context 仓先后各自提交推送（context 处于分离头指针时用 `git push origin HEAD:main`），回主仓库 `git add data/context data/<目标仓>` 更新指针
+4. **记账**：目标仓 CHANGELOG 记一行归位记录（篇数、日期范围、分流去向）
+
+### 长期记忆仓库 → archive
+
+提炼完成或失去活性的内容迁入 `data/archive/{分层}/{板块}/`，内容不删除、只迁移。
+
+- **触发**：以各仓归档约定为准——日志完成提炼（journal）、意图失去活性（intention）、板块整体失活（profile 等）
+- **提交推送**：源仓删除与 archive 仓新增各自提交推送，回主仓库 `git add data/<源仓> data/archive` 更新指针
+- **记账**：archive 仓 CHANGELOG 记归档来源
+
 ## 文档门户
 
 - 部署地址：<https://quanttide.github.io/quanttide-tech/>
