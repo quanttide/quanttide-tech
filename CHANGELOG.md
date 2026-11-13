@@ -4,6 +4,10 @@
 
 ## [Unreleased]
 
+### 变更
+
+- 更新子模块：gallery(d01a10b)，qtadmin 产品范围新增 cli 板块——cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
+
 ## [0.7.7] - 2026-11-12
 
 ### 移除
