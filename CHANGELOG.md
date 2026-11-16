@@ -14,6 +14,7 @@
 - 更新子模块：gallery(23ed4b1)，qtadmin 新增知识库案例——议事第二大脑归置与飞书文档权限两层开法（知识库对外访问 + 单个文档开访问），入口页补飞书板块
 - 更新子模块：gallery(4f11549)，qtadmin 新增审批案例——审批引擎未接管、默认审批者人工改设、入离职流程遗漏，与记账的上下游关系
 - 更新子模块：handbook(db48a5e)、gallery(v0.2.5)，工作日志手册 `qtadmin/work/journal.md` 从 handbook 迁入 gallery 并发 patch，注册 toc 与入口页工作板块
+- 更新子模块：gallery(1445ba0)，qtadmin 会议补日程与平台界限——日程发群即可，飞书日常 10 人以内、正式研讨会公司账号开到 25 人、超过换觅讯（上课专用）
 - 更新子模块：intention(58e66de)，qtclass 新增产品篇——AI 原生的产教融合众包生态定位、目标用户、三级火箭架构（site/lite/studio）、AI 原生创新点
 
 ## [0.7.7] - 2026-11-12
