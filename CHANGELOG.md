@@ -6,6 +6,7 @@
 
 ### 变更
 
+- 更新子模块：bylaw(a699e9e)，审计章程五篇（audit/）迁出至 quanttide-bylaw-of-audit-management——index 入其仓根、qt* 业务线入 business/、审计与议事入 function/；本仓目录树与归置约定同步
 - 更新子模块：bylaw(706ed37)，商务章程三篇（business/）迁出至 quanttide-bylaw-of-business-development 的 `intro/`；本仓导航、关键词与目录树同步
 - 更新子模块：handbook(272575a)，商务手册五篇（qtdata/business/）迁出至 quanttide-handbook-of-business-development 的 `intro/`，移除章程对照信息；本仓导航与引用同步
 - 更新子模块：gallery(d01a10b)，qtadmin 产品范围新增 cli 板块——cli 是 AI 的入口，平台内部不一定内置 AI，AI 能力通过 Skill 适配接入
