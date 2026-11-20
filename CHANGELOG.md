@@ -30,9 +30,10 @@
 - 更新子模块：journal(3b49184)，移除 fetch-chat-logs skill
 - 更新子模块：journal(a0ce841)，恢复 qtclass/ 日志 35 篇（撤销 10-29 迁出，default/ 7 篇归位，README/AGENTS 口径复原）
 
+- 更新子模块：bylaw(c7857ca)、handbook(b844dbb)——量潮课堂教学实践章程落 bylaw（合同格式转章程格式，总则→主体→附则、第X条条款式）；操作准则与三份工作流程（任务确认 / 激励规则 / 协作结算）落 handbook，myst 双仓挂载
 - 更新子模块：roadmap(e264ddd)，qtclass 账号与支付接入设计 auth-pay 并入 provider 篇——落地 Phase 0-5 转待办勾选项，设计全文归数据面路线图
-- 更新子模块：roadmap(bc68b17)
-- 更新子模块：qtclass(b04cc59)——ROADMAP 全系按 v0.1 目标重写（root + site/studio/lite/provider/cli）：静态探针纪律、服务端等待契约、双引擎分工与收口顺序对齐产品路线，qtclass 产品路线图重写——v0.1 固定一版数据模型（契约喂真场景、模板/实例第一刀、双引擎切分）、v1.0 商业化运营三条标志；正文按口径不引用具体文档
+- 更新子模块：roadmap(bc68b17)，qtclass 产品路线图重写——v0.1 固定一版数据模型（契约喂真场景、模板/实例第一刀、双引擎切分）、v1.0 商业化运营三条标志；正文按口径不引用具体文档
+- 更新子模块：qtclass(b04cc59)——ROADMAP 全系按 v0.1 目标重写（root + site/studio/lite/provider/cli）：静态探针纪律、服务端等待契约、双引擎分工与收口顺序对齐产品路线
 - 更新子模块：qtclass(lite/v0.1.3)——筛选由底部弹层改为两排常驻分段（需求/验收各一排，选项不藏）；同批纠正 lite 0.1.2 与 site 0.1.3 的 CHANGELOG 发布日期（实发 11-07）；tag 触发部署，线上复核 200 且 bundle 与本地构建同哈希
 - 更新子模块：qtclass(lite/v0.1.2、site/v0.1.3)——lite 页签外壳（理论 / 实践 / 我的 + AppBar，微信式）与两把尺筛选（任务书 `tags.requirement/acceptance` 全量标注 12/12，课程清单自 site 迁入理论页）；site 首页上线（课程特色取材宣传册）瘦身为首页 + 价格并加 lite / studio 连接引用；两仓 CHANGELOG 转正 + package.json 升版 + tag 触发部署，线上复核 200
 - 更新子模块：qtadmin(v0.1.0-alpha.1)——CLI 四命令骨架首发（entity / domain / adapter / category，名词为主，叶子诚实标注数据源未接），版本起点与 ROADMAP 新结构线同步
