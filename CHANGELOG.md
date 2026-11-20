@@ -30,7 +30,8 @@
 - 更新子模块：journal(3b49184)，移除 fetch-chat-logs skill
 - 更新子模块：journal(a0ce841)，恢复 qtclass/ 日志 35 篇（撤销 10-29 迁出，default/ 7 篇归位，README/AGENTS 口径复原）
 
-- 更新子模块：bylaw(c7857ca)、handbook(b844dbb)——量潮课堂教学实践章程落 bylaw（合同格式转章程格式，总则→主体→附则、第X条条款式）；操作准则与三份工作流程（任务确认 / 激励规则 / 协作结算）落 handbook，myst 双仓挂载
+- 更新子模块：bylaw(c7857ca)、handbook(b844dbb)
+- 更新子模块：handbook——learn 合并进 practice（服务形态 / 资格 / 培养机制 / 经营定位 / 免费六步并入操作准则），paid 改属课程线为 `course/svip.md`；org 指向与 myst 导航同步，learn/ 移除——量潮课堂教学实践章程落 bylaw（合同格式转章程格式，总则→主体→附则、第X条条款式）；操作准则与三份工作流程（任务确认 / 激励规则 / 协作结算）落 handbook，myst 双仓挂载
 - 更新子模块：roadmap(e264ddd)，qtclass 账号与支付接入设计 auth-pay 并入 provider 篇——落地 Phase 0-5 转待办勾选项，设计全文归数据面路线图
 - 更新子模块：roadmap(bc68b17)，qtclass 产品路线图重写——v0.1 固定一版数据模型（契约喂真场景、模板/实例第一刀、双引擎切分）、v1.0 商业化运营三条标志；正文按口径不引用具体文档
 - 更新子模块：qtclass(b04cc59)——ROADMAP 全系按 v0.1 目标重写（root + site/studio/lite/provider/cli）：静态探针纪律、服务端等待契约、双引擎分工与收口顺序对齐产品路线
