@@ -35,7 +35,8 @@
 - 更新子模块：handbook——crowd 并入 practice/index
 - 更新子模块：brochure、handbook——org.md 拆分归位
 - 更新子模块：brochure——qtclass/public 三页
-- 更新子模块：brochure——免费招募申请改「交成品」（第 1 课网址/图替代四问邮件）：free/paid 改名 vibe-coding-*，新增 vibe-creating-free
+- 更新子模块：brochure——免费招募申请改「交成品」
+- 更新子模块：brochure、qtclass——宣传册补 AI办公/AI教学两班页（未开班）；lite 课程 slug 对齐 vibe-* 命名（未发版）（第 1 课网址/图替代四问邮件）：free/paid 改名 vibe-coding-*，新增 vibe-creating-free
 - 更新子模块：context——新增五板块
 - 更新子模块：qtclass——lite 0.2.9
 - 更新子模块：qtclass——lite 0.3.0
