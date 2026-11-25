@@ -34,7 +34,8 @@
 - 更新子模块：handbook——learn 合并进 practice
 - 更新子模块：handbook——crowd 并入 practice/index
 - 更新子模块：brochure、handbook——org.md 拆分归位
-- 更新子模块：brochure——qtclass/public 三页：free/paid 改名 vibe-coding-*，新增 vibe-creating-free
+- 更新子模块：brochure——qtclass/public 三页
+- 更新子模块：brochure——免费招募申请改「交成品」（第 1 课网址/图替代四问邮件）：free/paid 改名 vibe-coding-*，新增 vibe-creating-free
 - 更新子模块：context——新增五板块
 - 更新子模块：qtclass——lite 0.2.9
 - 更新子模块：qtclass——lite 0.3.0：课程主页（介绍/课时/班级）、班级载荷与课堂卡片导航（AI 工作改名 AI办公、领域课程迁课程清单、四课按学生实录补齐） 11-23 日志草稿与 qtclass 11-25（开班运营、课堂信息板、认证临时方案、量潮搜索方向）：仅「招生与准入」并入宣传册 qtclass/index（新节招生方式），运营职责与共同契约不再保留；handbook org 移除、导航同步（众包任务线、经营困难与应对、核心洞察、经验与方向），加粗列表按格式章程改写散文；crowd/ 与 learn/ 目录均清场（服务形态 / 资格 / 培养机制 / 经营定位 / 免费六步并入操作准则），paid 改属课程线为 `course/svip.md`；org 指向与 myst 导航同步，learn/ 移除——量潮课堂教学实践章程落 bylaw（合同格式转章程格式，总则→主体→附则、第X条条款式）；操作准则与三份工作流程（任务确认 / 激励规则 / 协作结算）落 handbook，myst 双仓挂载
