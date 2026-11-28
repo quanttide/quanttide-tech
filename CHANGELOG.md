@@ -6,6 +6,7 @@
 
 ### 变更
 
+- 清除课堂与招聘并轨口径（2026-11-28 改为分级）：`data/library` 删旧稿《关于招聘处理阻塞的解释和课堂免费学员报名建议》并同步 myst toc；`data/context` 的 qtclass/insight lite、`data/insight` 的 business-lines-and-clouds / zero-trust-axiom / recruitment-crisis-as-funnel-strategy 三篇同步——预测篇按体例挂「前提已推翻」状态而非静默改写
 - 更新子模块：bylaw(a699e9e)，审计章程五篇（audit/）迁出至 quanttide-bylaw-of-audit-management——index 入其仓根、qt* 业务线入 business/、审计与议事入 function/；本仓目录树与归置约定同步
 - 更新子模块：bylaw(706ed37)，商务章程三篇（business/）迁出至 quanttide-bylaw-of-business-development 的 `intro/`；本仓导航、关键词与目录树同步
 - 更新子模块：handbook(272575a)，商务手册五篇（qtdata/business/）迁出至 quanttide-handbook-of-business-development 的 `intro/`，移除章程对照信息；本仓导航与引用同步
